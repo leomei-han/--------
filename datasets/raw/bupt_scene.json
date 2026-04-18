@@ -1,0 +1,3509 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-18T05:52:43Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 973340625,
+      "lat": 39.9600741,
+      "lon": 116.3640842,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "name:zh-Hant": "麥當勞",
+        "name:zh-Latn-pinyin": "Màidāngláo",
+        "takeaway": "yes",
+        "website": "http://mcdonalds.com.cn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1743112506,
+      "lat": 39.9672105,
+      "lon": 116.3614418,
+      "tags": {
+        "amenity": "hospital",
+        "name": "北京国都医院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1745125438,
+      "lat": 39.965625,
+      "lon": 116.3578268,
+      "tags": {
+        "name": "总政北太平庄招待所",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1924725186,
+      "lat": 39.9598048,
+      "lon": 116.3641192,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "御马墩",
+        "name:zh": "御马墩",
+        "name:zh-Hans": "御马墩",
+        "name:zh-Hant": "禦馬墩"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1924729425,
+      "lat": 39.9603023,
+      "lon": 116.3640468,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "12橡树咖啡",
+        "name:zh": "12橡树咖啡",
+        "name:zh-Hans": "12橡树咖啡",
+        "name:zh-Hant": "12橡樹咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2463866300,
+      "lat": 39.9598565,
+      "lon": 116.3501595,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "校训石",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2463866312,
+      "lat": 39.9598622,
+      "lon": 116.3506473,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "毛主席像",
+        "name:zh": "毛主席像",
+        "name:zh-Hans": "毛主席像",
+        "name:zh-Hant": "毛主席像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2976838979,
+      "lat": 39.967153,
+      "lon": 116.3508592,
+      "tags": {
+        "name": "格林联盟酒店",
+        "name:zh": "格林联盟酒店",
+        "name:zh-Hans": "格林联盟酒店",
+        "name:zh-Hant": "格林聯盟飯店",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3511264385,
+      "lat": 39.9582958,
+      "lon": 116.3505065,
+      "tags": {
+        "amenity": "cafe",
+        "name": "零壹时光咖啡馆",
+        "name:en": "Zero-One Times Cafe",
+        "name:zh": "零壹时光咖啡馆",
+        "name:zh-Hans": "零壹时光咖啡馆",
+        "name:zh-Hant": "零壹時光咖啡館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3511264386,
+      "lat": 39.9581307,
+      "lon": 116.3510136,
+      "tags": {
+        "name": "南区超市",
+        "name:zh": "南区超市",
+        "name:zh-Hans": "南区超市",
+        "name:zh-Hant": "南區超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806093490,
+      "lat": 39.9672713,
+      "lon": 116.3645893,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国建设银行",
+        "brand:en": "China Construction Bank",
+        "brand:wikidata": "Q26299",
+        "brand:wikipedia": "en:China Construction Bank",
+        "brand:zh": "中国建设银行",
+        "name": "中国建设银行",
+        "name:en": "China Construction Bank",
+        "name:zh": "中国建设银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806093491,
+      "lat": 39.9672878,
+      "lon": 116.3652652,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国光大银行",
+        "brand:en": "China Everbright Bank",
+        "brand:wikidata": "Q10873167",
+        "brand:wikipedia": "zh:中国光大银行",
+        "brand:zh": "中国光大银行",
+        "name": "中国光大银行",
+        "name:en": "China Everbright Bank",
+        "name:zh": "中国光大银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806093492,
+      "lat": 39.9676537,
+      "lon": 116.3645624,
+      "tags": {
+        "name": "苏宁电器",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806093493,
+      "lat": 39.9676208,
+      "lon": 116.3645571,
+      "tags": {
+        "brand": "物美",
+        "brand:en": "Wumart",
+        "brand:wikidata": "Q8039225",
+        "brand:wikipedia": "en:Wumart",
+        "name": "物美",
+        "name:en": "Wumart",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3806093494,
+      "lat": 39.9675715,
+      "lon": 116.3645624,
+      "tags": {
+        "amenity": "bank",
+        "brand": "招商银行",
+        "brand:en": "China Merchants Bank",
+        "brand:wikidata": "Q1073327",
+        "brand:wikipedia": "en:China Merchants Bank",
+        "brand:zh": "招商银行",
+        "name": "招商银行",
+        "name:en": "China Merchants Bank",
+        "name:zh": "招商银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3809452743,
+      "lat": 39.9671605,
+      "lon": 116.3634256,
+      "tags": {
+        "name": "捷安特",
+        "shop": "bicycle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813332459,
+      "lat": 39.9659326,
+      "lon": 116.3576679,
+      "tags": {
+        "name": "国美电器",
+        "shop": "electronics"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813332460,
+      "lat": 39.9659669,
+      "lon": 116.3579778,
+      "tags": {
+        "amenity": "bank",
+        "name": "中国建设银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813332461,
+      "lat": 39.9659352,
+      "lon": 116.3575784,
+      "tags": {
+        "name": "如家快捷酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3813333912,
+      "lat": 39.9660808,
+      "lon": 116.3661381,
+      "tags": {
+        "addr:full": "北京市西城区新街口外大街2-5号（北太平桥东南角）",
+        "branch": "北京北太平庄店",
+        "brand": "速8酒店",
+        "brand:en": "Super 8",
+        "brand:wikidata": "Q5364003",
+        "brand:wikipedia": "zh:速8酒店",
+        "brand:zh": "速8酒店",
+        "name": "速8酒店",
+        "name:en": "Super 8",
+        "ref": "276",
+        "tourism": "motel",
+        "website": "http://www.super8.com.cn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815570195,
+      "lat": 39.9659344,
+      "lon": 116.3560861,
+      "tags": {
+        "amenity": "bank",
+        "name": "北京银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815570196,
+      "lat": 39.9656232,
+      "lon": 116.3564861,
+      "tags": {
+        "name": "影桥酒店",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815571543,
+      "lat": 39.9659344,
+      "lon": 116.3567103,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "金狮麟酒店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3816458477,
+      "lat": 39.9689417,
+      "lon": 116.363373,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国工商银行",
+        "brand:en": "Industrial and Commercial Bank of China",
+        "brand:wikidata": "Q26463",
+        "brand:wikipedia": "en:Industrial and Commercial Bank of China",
+        "name": "中国工商银行",
+        "name:en": "Industrial and Commercial Bank of China"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3859922208,
+      "lat": 39.9669283,
+      "lon": 116.3591721,
+      "tags": {
+        "name": "海友良品",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4017485636,
+      "lat": 39.9604626,
+      "lon": 116.3545368,
+      "tags": {
+        "building": "yes",
+        "name": "游泳馆",
+        "name:zh": "游泳馆",
+        "name:zh-Hans": "游泳馆",
+        "name:zh-Hant": "游泳館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4017547789,
+      "lat": 39.9633868,
+      "lon": 116.3503857,
+      "tags": {
+        "name": "招生就业处",
+        "name:zh": "招生就业处",
+        "name:zh-Hans": "招生就业处",
+        "name:zh-Hant": "招生就業處",
+        "office": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4238855103,
+      "lat": 39.9637034,
+      "lon": 116.3504776,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "鱼味小馆",
+        "name:zh": "鱼味小馆",
+        "name:zh-Hans": "鱼味小馆",
+        "name:zh-Hant": "魚味小館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4769095798,
+      "lat": 39.9661052,
+      "lon": 116.3650921,
+      "tags": {
+        "addr:full": "北京市西城区新街口外大街2-5号（北太平桥东南角）",
+        "branch": "北京北太平庄店",
+        "brand": "速8酒店",
+        "brand:en": "Super 8",
+        "brand:wikidata": "Q5364003",
+        "brand:wikipedia": "zh:速8酒店",
+        "brand:zh": "速8酒店",
+        "name": "速8酒店",
+        "name:en": "Super 8",
+        "ref": "276",
+        "tourism": "motel",
+        "website": "http://www.super8.com.cn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5136943358,
+      "lat": 39.9583842,
+      "lon": 116.3611375,
+      "tags": {
+        "artist_name": "启功",
+        "artwork_type": "statue",
+        "name": "陈垣校长像",
+        "name:zh": "陈垣校长像",
+        "name:zh-Hans": "陈垣校长像",
+        "name:zh-Hant": "陳垣校長像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5184510886,
+      "lat": 39.9621793,
+      "lon": 116.3510936,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "Isaac Newton",
+        "name:en": "Isaac Newton",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5794747098,
+      "lat": 39.9636972,
+      "lon": 116.359826,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "白鹿江西餐厅",
+        "name:zh": "白鹿江西餐厅",
+        "name:zh-Hans": "白鹿江西餐厅",
+        "name:zh-Hant": "白鹿江西餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6007120285,
+      "lat": 39.9608618,
+      "lon": 116.3615349,
+      "tags": {
+        "name": "乐育超市",
+        "name:zh": "乐育超市",
+        "name:zh-Hans": "乐育超市",
+        "name:zh-Hant": "樂育超市",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082649,
+      "lat": 39.9598828,
+      "lon": 116.3632713,
+      "tags": {
+        "amenity": "restaurant",
+        "fast_food": "cafeteria",
+        "name": "学生第六食堂(留学生食堂)",
+        "name:zh": "学生第六食堂",
+        "name:zh-Hans": "学生第六食堂",
+        "name:zh-Hant": "學生第六食堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082650,
+      "lat": 39.962164,
+      "lon": 116.3639603,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "八喜日本料理",
+        "name:zh": "八喜日本料理",
+        "name:zh-Hans": "八喜日本料理",
+        "name:zh-Hant": "八喜日本料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082651,
+      "lat": 39.962026,
+      "lon": 116.3639774,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "爱德堡西餐咖啡吧",
+        "name:zh": "爱德堡西餐咖啡吧",
+        "name:zh-Hans": "爱德堡西餐咖啡吧",
+        "name:zh-Hant": "愛德堡西餐咖啡吧"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100036,
+      "lat": 39.961991,
+      "lon": 116.352893,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "楼上楼茶餐厅",
+        "name:zh": "楼上楼茶餐厅",
+        "name:zh-Hans": "楼上楼茶餐厅",
+        "name:zh-Hant": "樓上樓茶餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100037,
+      "lat": 39.9659902,
+      "lon": 116.3550325,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "正宗西安羊肉泡馍"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100038,
+      "lat": 39.9660301,
+      "lon": 116.355241,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "潮汕渔村"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100039,
+      "lat": 39.9656946,
+      "lon": 116.3550117,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "LAKER'S（北太平庄店）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041738525,
+      "lat": 39.9659585,
+      "lon": 116.3572677,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "福口居京味涮肉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6395371262,
+      "lat": 39.9656376,
+      "lon": 116.3549357,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "汤本味赣苑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7426396546,
+      "lat": 39.9633892,
+      "lon": 116.349096,
+      "tags": {
+        "name": "便利蜂",
+        "name:zh": "便利蜂",
+        "name:zh-Hans": "便利蜂",
+        "name:zh-Hant": "便利蜂",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8493346915,
+      "lat": 39.9670889,
+      "lon": 116.3690874,
+      "tags": {
+        "brand": "中国移动",
+        "brand:en": "China Mobile",
+        "brand:wikidata": "Q741618",
+        "brand:wikipedia": "zh:中国移动",
+        "brand:zh": "中国移动",
+        "name": "中国移动",
+        "office": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8493346916,
+      "lat": 39.9670872,
+      "lon": 116.3693281,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国邮政储蓄银行",
+        "brand:en": "Postal Savings Bank of China",
+        "brand:wikidata": "Q986744",
+        "brand:wikipedia": "en:Postal Savings Bank of China",
+        "brand:zh": "中国邮政储蓄银行",
+        "name": "中国邮政储蓄银行",
+        "name:en": "Postal Savings Bank of China",
+        "name:zh": "中国邮政储蓄银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9773032952,
+      "lat": 39.9667746,
+      "lon": 116.3545808,
+      "tags": {
+        "amenity": "toilets",
+        "name": "北影",
+        "name:zh": "北影",
+        "name:zh-Hans": "北影",
+        "name:zh-Hant": "北影",
+        "opening_hours": "Mo-Su 05:00-23:00",
+        "phone": "+86 10 6871 6285"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11834538799,
+      "lat": 39.9635481,
+      "lon": 116.3522194,
+      "tags": {
+        "amenity": "post_office",
+        "brand": "京东物流",
+        "brand:en": "JD Logistics",
+        "brand:short": "京东",
+        "brand:wikidata": "Q67936681",
+        "brand:zh": "京东物流",
+        "name": "京东物流",
+        "name:en": "JD Logistics",
+        "name:zh": "京东物流",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "short_name": "京东"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12735976944,
+      "lat": 39.9617412,
+      "lon": 116.3518934,
+      "tags": {
+        "amenity": "library",
+        "name": "档案馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12735976945,
+      "lat": 39.9635479,
+      "lon": 116.3521277,
+      "tags": {
+        "amenity": "post_office",
+        "brand": "顺丰速运",
+        "brand:en": "SF Express",
+        "brand:short": "顺丰",
+        "brand:wikidata": "Q7390019",
+        "brand:zh": "顺丰速运",
+        "name": "顺丰快递",
+        "name:en": "SF Express",
+        "name:zh": "顺丰速运",
+        "opening_hours": "Mo-Su 09:00-20:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12735976946,
+      "lat": 39.9642474,
+      "lon": 116.3515996,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "博士居"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12736674360,
+      "lat": 39.9595384,
+      "lon": 116.3530025,
+      "tags": {
+        "artwork_type": "sculpture",
+        "name": "李白烈士雕像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12738869616,
+      "lat": 39.9595318,
+      "lon": 116.3512846,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "周炯槃院士",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12738869617,
+      "lat": 39.9595224,
+      "lon": 116.3503648,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "蔡长年塑像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12741379590,
+      "lat": 39.9604076,
+      "lon": 116.3491833,
+      "tags": {
+        "amenity": "post_office",
+        "brand": "中国邮政",
+        "brand:en": "China Post",
+        "brand:wikidata": "Q1066476",
+        "brand:zh": "中国邮政",
+        "name": "中国邮政",
+        "name:en": "China Post",
+        "name:zh": "中国邮政"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12741379591,
+      "lat": 39.9606612,
+      "lon": 116.3491695,
+      "tags": {
+        "name": "北邮人之家",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12747381126,
+      "lat": 39.9625891,
+      "lon": 116.3517009,
+      "tags": {
+        "name": "自邮制造",
+        "opening_hours": "Mo-Su 11:00-19:00",
+        "shop": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12747381156,
+      "lat": 39.961689,
+      "lon": 116.3526384,
+      "tags": {
+        "amenity": "prep_school",
+        "name": "国际汉语培训中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716524,
+      "lat": 39.9650242,
+      "lon": 116.3543937,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "金谷园饺子馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716536,
+      "lat": 39.9623777,
+      "lon": 116.3517244,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716537,
+      "lat": 39.9623733,
+      "lon": 116.3518129,
+      "tags": {
+        "brand": "泸溪河",
+        "brand:en": "Luxihe Taosu",
+        "brand:wikidata": "Q114050925",
+        "brand:zh": "泸溪河",
+        "cuisine": "chinese",
+        "name": "泸溪河",
+        "name:en": "Luxihe Taosu",
+        "name:zh": "泸溪河",
+        "shop": "pastry"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716538,
+      "lat": 39.9623714,
+      "lon": 116.3514979,
+      "tags": {
+        "brand": "中国移动",
+        "brand:en": "China Mobile",
+        "brand:wikidata": "Q741618",
+        "brand:zh": "中国移动",
+        "name": "中国移动",
+        "name:en": "China Mobile",
+        "name:zh": "中国移动",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753720328,
+      "lat": 39.9623403,
+      "lon": 116.3515996,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "虎头军煎饼"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12754376687,
+      "lat": 39.9625929,
+      "lon": 116.3516058,
+      "tags": {
+        "brand": "中国联通",
+        "brand:en": "China Unicom",
+        "brand:wikidata": "Q1068485",
+        "brand:zh": "中国联通",
+        "name": "中国联通",
+        "name:en": "China Unicom",
+        "name:zh": "中国联通",
+        "shop": "telecommunication"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12754376689,
+      "lat": 39.9627017,
+      "lon": 116.3498381,
+      "tags": {
+        "amenity": "prep_school",
+        "name": "计算机学院实验中心"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12759299441,
+      "lat": 39.9610818,
+      "lon": 116.3518681,
+      "tags": {
+        "name": "科学技术研究院",
+        "office": "research"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12794038868,
+      "lat": 39.9582475,
+      "lon": 116.3643259,
+      "tags": {
+        "name": "京师品阅",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12797101906,
+      "lat": 39.9603694,
+      "lon": 116.355293,
+      "tags": {
+        "amenity": "bank",
+        "brand": "中国邮政储蓄银行",
+        "brand:en": "Postal Savings Bank of China",
+        "brand:wikidata": "Q986744",
+        "brand:zh": "中国邮政储蓄银行",
+        "name": "中国邮政储蓄银行",
+        "name:en": "Postal Savings Bank of China",
+        "name:zh": "中国邮政储蓄银行"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12841510154,
+      "lat": 39.9648184,
+      "lon": 116.3530237,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12865883372,
+      "lat": 39.9600594,
+      "lon": 116.3614957,
+      "tags": {
+        "amenity": "college",
+        "name": "人工智能学院"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12948635277,
+      "lat": 39.960286,
+      "lon": 116.3635951,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Canada咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13384698294,
+      "lat": 39.9585574,
+      "lon": 116.3636886,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "孔子圣像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13384698295,
+      "lat": 39.9587216,
+      "lon": 116.3572536,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "先师鲁迅像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13384698296,
+      "lat": 39.9588635,
+      "lon": 116.358456,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "袁敦礼先生像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13384698297,
+      "lat": 39.9615463,
+      "lon": 116.3579543,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "周廷儒院士像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13384698298,
+      "lat": 39.9615485,
+      "lon": 116.3582886,
+      "tags": {
+        "artwork_type": "statue",
+        "name": "汪堃仁院士像",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13694775719,
+      "lat": 39.9602795,
+      "lon": 116.3543331,
+      "tags": {
+        "leisure": "fitness_centre",
+        "name": "鸿雁健身中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30784020,
+      "center": {
+        "lat": 39.9603271,
+        "lon": 116.3597548
+      },
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "university",
+        "int_name": "Beijing Normal University",
+        "internet_access": "yes",
+        "name": "北京师范大学",
+        "name:en": "Beijing Normal University (BNU)",
+        "name:zh": "北京师范大学",
+        "website": "https://www.bnu.edu.cn",
+        "wikidata": "Q1604022",
+        "wikipedia": "zh:北京师范大学"
+      }
+    },
+    {
+      "type": "way",
+      "id": 30784058,
+      "center": {
+        "lat": 39.9648854,
+        "lon": 116.3686607
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "双秀公园",
+        "name:en": "Shuangxiugong yuan",
+        "wikidata": "Q29635813"
+      }
+    },
+    {
+      "type": "way",
+      "id": 140795864,
+      "center": {
+        "lat": 39.9601818,
+        "lon": 116.3579625
+      },
+      "tags": {
+        "leisure": "pitch",
+        "name": "东操场",
+        "name:zh": "东操场",
+        "name:zh-Hans": "东操场",
+        "name:zh-Hant": "東操場"
+      }
+    },
+    {
+      "type": "way",
+      "id": 162406676,
+      "center": {
+        "lat": 39.967501,
+        "lon": 116.3625675
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "远望楼宾馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 170476565,
+      "center": {
+        "lat": 39.9636079,
+        "lon": 116.3479743
+      },
+      "tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "name": "西土城南(2)",
+        "opening_hours": "Mo-Su 05:00-23:00; Apr-Oct Mo-Su 05:00-24:00",
+        "operator": "海淀区环境卫生服务中心四队",
+        "ref": "10810211030"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257581,
+      "center": {
+        "lat": 39.9611335,
+        "lon": 116.3562871
+      },
+      "tags": {
+        "building": "yes",
+        "name": "艺术楼",
+        "name:zh": "艺术楼",
+        "name:zh-Hans": "艺术楼",
+        "name:zh-Hant": "藝術樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257582,
+      "center": {
+        "lat": 39.961896,
+        "lon": 116.3578839
+      },
+      "tags": {
+        "building": "yes",
+        "name": "生地楼",
+        "name:zh": "生地楼",
+        "name:zh-Hans": "生地楼",
+        "name:zh-Hant": "生地樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257583,
+      "center": {
+        "lat": 39.9601762,
+        "lon": 116.3566192
+      },
+      "tags": {
+        "leisure": "pitch",
+        "name": "西操场",
+        "name:zh": "西操场",
+        "name:zh-Hans": "西操场",
+        "name:zh-Hant": "西操場"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257584,
+      "center": {
+        "lat": 39.958455,
+        "lon": 116.3581345
+      },
+      "tags": {
+        "building": "public",
+        "int_name": "Qiujiduan Gymnasium",
+        "leisure": "sports_centre",
+        "name": "邱季端体育馆",
+        "name:zh": "邱季端体育馆",
+        "name:zh-Hans": "邱季端体育馆",
+        "name:zh-Hant": "邱季端體育館",
+        "sport": "basketball"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257585,
+      "center": {
+        "lat": 39.9617686,
+        "lon": 116.3563158
+      },
+      "tags": {
+        "building": "yes",
+        "name": "化学楼",
+        "name:zh": "化学楼",
+        "name:zh-Hans": "化学楼",
+        "name:zh-Hant": "化學樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172257586,
+      "center": {
+        "lat": 39.9602557,
+        "lon": 116.3592658
+      },
+      "tags": {
+        "building": "yes",
+        "name": "科技楼",
+        "name:zh": "科技楼",
+        "name:zh-Hans": "科技楼",
+        "name:zh-Hant": "科技樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179358288,
+      "center": {
+        "lat": 39.9587176,
+        "lon": 116.3595766
+      },
+      "tags": {
+        "building": "yes",
+        "name": "北楼",
+        "name:zh": "北楼",
+        "name:zh-Hans": "北楼",
+        "name:zh-Hant": "北樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179358289,
+      "center": {
+        "lat": 39.9580678,
+        "lon": 116.359585
+      },
+      "tags": {
+        "building": "yes",
+        "name": "南楼",
+        "name:zh": "南楼",
+        "name:zh-Hans": "南楼",
+        "name:zh-Hant": "南樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179358290,
+      "center": {
+        "lat": 39.9583693,
+        "lon": 116.3600634
+      },
+      "tags": {
+        "building": "yes",
+        "name": "东楼",
+        "name:zh": "东楼",
+        "name:zh-Hans": "东楼",
+        "name:zh-Hant": "東樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 179358291,
+      "center": {
+        "lat": 39.958389,
+        "lon": 116.3590308
+      },
+      "tags": {
+        "building": "yes",
+        "name": "西楼",
+        "name:zh": "西楼",
+        "name:zh-Hans": "西楼",
+        "name:zh-Hant": "西樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 232724492,
+      "center": {
+        "lat": 39.9656614,
+        "lon": 116.3479603
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "元大都城垣遗址公园",
+        "name:zh": "元大都城垣遗址公园",
+        "name:zh-Hans": "元大都城垣遗址公园",
+        "name:zh-Hant": "元大都城垣遺址公園"
+      }
+    },
+    {
+      "type": "way",
+      "id": 253330141,
+      "center": {
+        "lat": 39.9591486,
+        "lon": 116.3518614
+      },
+      "tags": {
+        "building": "university",
+        "name": "教二楼",
+        "name:zh": "教二楼",
+        "name:zh-Hans": "教二楼",
+        "name:zh-Hant": "教二樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030101,
+      "center": {
+        "lat": 39.9620792,
+        "lon": 116.3516887
+      },
+      "tags": {
+        "building": "house",
+        "name": "学生发展中心",
+        "name:zh": "学生发展中心",
+        "name:zh-Hans": "学生发展中心",
+        "name:zh-Hant": "學生發展中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030102,
+      "center": {
+        "lat": 39.9623014,
+        "lon": 116.351346
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "building": "yes",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030103,
+      "center": {
+        "lat": 39.9625743,
+        "lon": 116.3490404
+      },
+      "tags": {
+        "building": "house",
+        "name": "留学生2号公寓",
+        "name:zh": "留学生2号公寓",
+        "name:zh-Hans": "留学生2号公寓",
+        "name:zh-Hant": "留學生2號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030104,
+      "center": {
+        "lat": 39.9616656,
+        "lon": 116.3490844
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "学生13号公寓",
+        "name:zh": "学生13号公寓",
+        "name:zh-Hans": "学生13号公寓",
+        "name:zh-Hant": "學生13號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030105,
+      "center": {
+        "lat": 39.9621906,
+        "lon": 116.3496277
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生5号公寓",
+        "name:zh": "学生5号公寓",
+        "name:zh-Hans": "学生5号公寓",
+        "name:zh-Hant": "學生5號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030106,
+      "center": {
+        "lat": 39.9615343,
+        "lon": 116.3496401
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生3号公寓",
+        "name:zh": "学生3号公寓",
+        "name:zh-Hans": "学生3号公寓",
+        "name:zh-Hant": "學生3號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030107,
+      "center": {
+        "lat": 39.9621956,
+        "lon": 116.3504816
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生8号公寓",
+        "name:zh": "学生8号公寓",
+        "name:zh-Hans": "学生8号公寓",
+        "name:zh-Hant": "學生8號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030108,
+      "center": {
+        "lat": 39.9615442,
+        "lon": 116.3505088
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生4号公寓",
+        "name:zh": "学生4号公寓",
+        "name:zh-Hans": "学生4号公寓",
+        "name:zh-Hant": "學生4號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030109,
+      "center": {
+        "lat": 39.9610779,
+        "lon": 116.3496655
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生1号公寓",
+        "name:zh": "学生1号公寓",
+        "name:zh-Hans": "学生1号公寓",
+        "name:zh-Hant": "學生1號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030110,
+      "center": {
+        "lat": 39.9610952,
+        "lon": 116.3505329
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生2号公寓",
+        "name:zh": "学生2号公寓",
+        "name:zh-Hans": "学生2号公寓",
+        "name:zh-Hant": "學生2號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944894,
+      "center": {
+        "lat": 39.9596634,
+        "lon": 116.3623669
+      },
+      "tags": {
+        "building": "yes",
+        "name": "图书馆",
+        "name:zh": "图书馆",
+        "name:zh-Hans": "图书馆",
+        "name:zh-Hant": "圖書館"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944895,
+      "center": {
+        "lat": 39.9605991,
+        "lon": 116.3611734
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育7楼",
+        "name:zh": "乐育7楼",
+        "name:zh-Hans": "乐育7楼",
+        "name:zh-Hant": "樂育7樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944897,
+      "center": {
+        "lat": 39.9610708,
+        "lon": 116.3611342
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育9楼",
+        "name:zh": "乐育9楼",
+        "name:zh-Hans": "乐育9楼",
+        "name:zh-Hant": "樂育9樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944899,
+      "center": {
+        "lat": 39.9606571,
+        "lon": 116.3620566
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育5楼",
+        "name:zh": "乐育5楼",
+        "name:zh-Hans": "乐育5楼",
+        "name:zh-Hant": "樂育5樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944900,
+      "center": {
+        "lat": 39.9607455,
+        "lon": 116.3632833
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育2楼",
+        "name:zh": "乐育2楼",
+        "name:zh-Hans": "乐育2楼",
+        "name:zh-Hant": "樂育2樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267944902,
+      "center": {
+        "lat": 39.9609175,
+        "lon": 116.3624971
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育4楼",
+        "name:zh": "乐育4楼",
+        "name:zh-Hans": "乐育4楼",
+        "name:zh-Hant": "樂育4樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267946192,
+      "center": {
+        "lat": 39.960941,
+        "lon": 116.363982
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育1楼",
+        "name:zh": "乐育1楼",
+        "name:zh-Hans": "乐育1楼",
+        "name:zh-Hant": "樂育1樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267946197,
+      "center": {
+        "lat": 39.9618732,
+        "lon": 116.3627999
+      },
+      "tags": {
+        "leisure": "pitch",
+        "name": "大",
+        "name:zh": "大操场",
+        "name:zh-Hans": "大操场",
+        "name:zh-Hant": "大操場"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267946198,
+      "center": {
+        "lat": 39.961136,
+        "lon": 116.3620133
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育6楼",
+        "name:zh": "乐育6楼",
+        "name:zh-Hans": "乐育6楼",
+        "name:zh-Hant": "樂育6樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267946199,
+      "center": {
+        "lat": 39.9611983,
+        "lon": 116.3635003
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐育3楼",
+        "name:zh": "乐育3楼",
+        "name:zh-Hans": "乐育3楼",
+        "name:zh-Hant": "樂育3樓",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267948024,
+      "center": {
+        "lat": 39.9583609,
+        "lon": 116.3607463
+      },
+      "tags": {
+        "building": "yes",
+        "name": "教九楼",
+        "name:zh": "教九楼",
+        "name:zh-Hans": "教九楼",
+        "name:zh-Hant": "教九樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267948025,
+      "center": {
+        "lat": 39.9588753,
+        "lon": 116.3611932
+      },
+      "tags": {
+        "building": "yes",
+        "name": "教八楼",
+        "name:zh": "教八楼",
+        "name:zh-Hans": "教八楼",
+        "name:zh-Hant": "教八樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267948582,
+      "center": {
+        "lat": 39.9595415,
+        "lon": 116.3589681
+      },
+      "tags": {
+        "leisure": "pitch",
+        "name": "排球场",
+        "name:zh": "排球场",
+        "name:zh-Hans": "排球场",
+        "name:zh-Hant": "排球場"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267948584,
+      "center": {
+        "lat": 39.9586965,
+        "lon": 116.3624429
+      },
+      "tags": {
+        "building": "yes",
+        "name": "主楼",
+        "name:zh": "主楼",
+        "name:zh-Hans": "主楼",
+        "name:zh-Hant": "主樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 267952852,
+      "center": {
+        "lat": 39.9641165,
+        "lon": 116.3589944
+      },
+      "tags": {
+        "leisure": "pitch",
+        "name": "三附中篮球场",
+        "name:zh": "三附中篮球场",
+        "name:zh-Hans": "三附中篮球场",
+        "name:zh-Hant": "三附中籃球場"
+      }
+    },
+    {
+      "type": "way",
+      "id": 279303636,
+      "center": {
+        "lat": 39.9602522,
+        "lon": 116.351917
+      },
+      "tags": {
+        "amenity": "university",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "loc_name": "北京邮电大学(海淀校区)",
+        "name": "北京邮电大学",
+        "name:en": "Beijing University of Posts and Telecommunications",
+        "name:zh": "北京邮电大学",
+        "short_name": "北邮",
+        "short_name:en": "BUPT",
+        "website": "https://www.bupt.edu.cn/",
+        "wikidata": "Q4881210",
+        "wikipedia": "en:Beijing University of Posts and Telecommunications"
+      }
+    },
+    {
+      "type": "way",
+      "id": 294110460,
+      "center": {
+        "lat": 39.9621582,
+        "lon": 116.355298
+      },
+      "tags": {
+        "building": "yes",
+        "name": "励耘9号楼",
+        "name:zh": "励耘9号楼",
+        "name:zh-Hans": "励耘9号楼",
+        "name:zh-Hant": "勵耘9號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 294110486,
+      "center": {
+        "lat": 39.9658135,
+        "lon": 116.3514428
+      },
+      "tags": {
+        "addr:city": "北京",
+        "addr:district": "海淀区",
+        "addr:postcode": "100088",
+        "addr:street": "北太平庄",
+        "building": "apartments",
+        "building:levels": "12",
+        "name": "北三环中路46号院1号楼",
+        "name:zh": "北三环中路46号院1号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 297128072,
+      "center": {
+        "lat": 39.9675957,
+        "lon": 116.3649521
+      },
+      "tags": {
+        "building": "yes",
+        "name": "城建大厦"
+      }
+    },
+    {
+      "type": "way",
+      "id": 297484161,
+      "center": {
+        "lat": 39.9657697,
+        "lon": 116.3630762
+      },
+      "tags": {
+        "building": "commercial",
+        "name": "京宁国大大厦"
+      }
+    },
+    {
+      "type": "way",
+      "id": 319522945,
+      "center": {
+        "lat": 39.9590854,
+        "lon": 116.3637116
+      },
+      "tags": {
+        "building": "school",
+        "name": "教四楼",
+        "name:zh": "教四楼",
+        "name:zh-Hans": "教四楼",
+        "name:zh-Hant": "教四樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344373140,
+      "center": {
+        "lat": 39.9586036,
+        "lon": 116.3506622
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "校医院（北京邮电大学社区卫生服务中心）",
+        "name:en": "BUPT Hospital",
+        "name:zh": "校医院（北京邮电大学社区卫生服务中心）",
+        "name:zh-Hans": "校医院（北京邮电大学社区卫生服务中心）",
+        "name:zh-Hant": "校醫院（北京郵電大學社區衛生服務中心）"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376258,
+      "center": {
+        "lat": 39.9582413,
+        "lon": 116.3505922
+      },
+      "tags": {
+        "building": "yes",
+        "name": "宏途书店",
+        "name:zh": "宏途书店",
+        "name:zh-Hans": "宏途书店",
+        "name:zh-Hant": "宏途書店",
+        "shop": "books"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376259,
+      "center": {
+        "lat": 39.957968,
+        "lon": 116.3507066
+      },
+      "tags": {
+        "building": "university",
+        "name": "南区教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376262,
+      "center": {
+        "lat": 39.9585396,
+        "lon": 116.3497601
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "14号楼",
+        "name:zh": "14号楼",
+        "name:zh-Hans": "14号楼",
+        "name:zh-Hant": "14號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376264,
+      "center": {
+        "lat": 39.9580067,
+        "lon": 116.3498333
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "2号楼",
+        "name:zh": "2号楼",
+        "name:zh-Hans": "2号楼",
+        "name:zh-Hant": "2號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376269,
+      "center": {
+        "lat": 39.9587625,
+        "lon": 116.3492327
+      },
+      "tags": {
+        "building": "university",
+        "name": "国际学院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376270,
+      "center": {
+        "lat": 39.9582492,
+        "lon": 116.3492517
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "15号楼",
+        "name:zh": "15号楼",
+        "name:zh-Hans": "15号楼",
+        "name:zh-Hant": "15號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376663,
+      "center": {
+        "lat": 39.9586254,
+        "lon": 116.3518346
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "1号楼",
+        "name:zh": "1号楼",
+        "name:zh-Hans": "1号楼",
+        "name:zh-Hant": "1號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 344376664,
+      "center": {
+        "lat": 39.9582437,
+        "lon": 116.351877
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "2号楼",
+        "name:zh": "2号楼",
+        "name:zh-Hans": "2号楼",
+        "name:zh-Hant": "2號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 354562947,
+      "center": {
+        "lat": 39.9627222,
+        "lon": 116.3528982
+      },
+      "tags": {
+        "building": "university",
+        "building:levels": "12",
+        "name": "科研楼",
+        "name:zh": "科研楼",
+        "name:zh-Hans": "科研楼",
+        "name:zh-Hant": "科研樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 361446563,
+      "center": {
+        "lat": 39.9611632,
+        "lon": 116.3571684
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学生活动中心",
+        "name:zh": "学生活动中心",
+        "name:zh-Hans": "学生活动中心",
+        "name:zh-Hant": "學生活動中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 363833971,
+      "center": {
+        "lat": 39.9606006,
+        "lon": 116.3501365
+      },
+      "tags": {
+        "building": "university",
+        "name": "教四楼",
+        "name:zh": "教四楼",
+        "name:zh-Hans": "教四楼",
+        "name:zh-Hant": "教四樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 388355720,
+      "center": {
+        "lat": 39.9702007,
+        "lon": 116.3495305
+      },
+      "tags": {
+        "amenity": "college",
+        "name": "北京电影学院",
+        "name:en": "Beijing Film Academy",
+        "name:zh": "北京电影学院",
+        "wikidata": "Q138182",
+        "wikipedia": "en:Beijing Film Academy"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008788,
+      "center": {
+        "lat": 39.9605959,
+        "lon": 116.3491485
+      },
+      "tags": {
+        "building": "yes",
+        "name": "中国邮政储蓄银行（鸿通楼）",
+        "name:zh": "中国邮政储蓄银行（鸿通楼）",
+        "name:zh-Hans": "中国邮政储蓄银行（鸿通楼）",
+        "name:zh-Hant": "中國郵政儲蓄銀行（鴻通樓）"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008789,
+      "center": {
+        "lat": 39.9599308,
+        "lon": 116.3521917
+      },
+      "tags": {
+        "building": "university",
+        "name": "未来学习大楼",
+        "opening_date": "2025-10-18"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008979,
+      "center": {
+        "lat": 39.9606009,
+        "lon": 116.3517972
+      },
+      "tags": {
+        "building": "university",
+        "name": "教一楼",
+        "name:zh": "教一楼",
+        "name:zh-Hans": "教一楼",
+        "name:zh-Hant": "教一樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008980,
+      "center": {
+        "lat": 39.960739,
+        "lon": 116.3517959
+      },
+      "tags": {
+        "building": "yes",
+        "name": "行政办公楼",
+        "name:zh": "行政办公楼",
+        "name:zh-Hans": "行政办公楼",
+        "name:zh-Hant": "行政辦公樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008981,
+      "center": {
+        "lat": 39.9608165,
+        "lon": 116.351425
+      },
+      "tags": {
+        "building": "yes",
+        "name": "财务处",
+        "name:zh": "财务处",
+        "name:zh-Hans": "财务处",
+        "name:zh-Hant": "財務處"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399008982,
+      "center": {
+        "lat": 39.9607495,
+        "lon": 116.3514283
+      },
+      "tags": {
+        "building": "yes",
+        "name": "后勤处",
+        "name:zh": "后勤处",
+        "name:zh-Hans": "后勤处",
+        "name:zh-Hant": "後勤處"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399009424,
+      "center": {
+        "lat": 39.9605273,
+        "lon": 116.3539519
+      },
+      "tags": {
+        "building": "university",
+        "leisure": "stadium",
+        "name": "北邮体育馆",
+        "name:zh": "北邮体育馆",
+        "name:zh-Hans": "北邮体育馆",
+        "name:zh-Hant": "北郵體育館"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399009425,
+      "center": {
+        "lat": 39.9590307,
+        "lon": 116.3527959
+      },
+      "tags": {
+        "building": "university",
+        "name": "可信网络通信协同创新中心（创新楼）",
+        "name:zh": "可信网络通信协同创新中心（创新楼）",
+        "name:zh-Hans": "可信网络通信协同创新中心（创新楼）",
+        "name:zh-Hant": "可信網路通信協同創新中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399010162,
+      "center": {
+        "lat": 39.9626214,
+        "lon": 116.3495822
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "留学生1号公寓",
+        "name:zh": "留学生1号公寓",
+        "name:zh-Hans": "留学生1号公寓",
+        "name:zh-Hant": "留學生1號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399013934,
+      "center": {
+        "lat": 39.9625975,
+        "lon": 116.3503929
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "综合食堂(新食堂)",
+        "name:zh": "综合食堂",
+        "name:zh-Hans": "综合食堂",
+        "name:zh-Hant": "綜合食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399013935,
+      "center": {
+        "lat": 39.9629219,
+        "lon": 116.3494957
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生9号公寓",
+        "name:zh": "学生9号公寓",
+        "name:zh-Hans": "学生9号公寓",
+        "name:zh-Hant": "學生9號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399013936,
+      "center": {
+        "lat": 39.9633451,
+        "lon": 116.3495453
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生11号公寓",
+        "name:zh": "学生11号公寓",
+        "name:zh-Hans": "学生11号公寓",
+        "name:zh-Hant": "學生11號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399015104,
+      "center": {
+        "lat": 39.963296,
+        "lon": 116.3520652
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生6号公寓",
+        "name:zh": "学生6号公寓",
+        "name:zh-Hans": "学生6号公寓",
+        "name:zh-Hant": "學生6號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399015106,
+      "center": {
+        "lat": 39.9627355,
+        "lon": 116.3511776
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学生活动中心",
+        "name:zh": "学生活动中心",
+        "name:zh-Hans": "学生活动中心",
+        "name:zh-Hant": "學生活動中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399015107,
+      "center": {
+        "lat": 39.9633018,
+        "lon": 116.3512631
+      },
+      "tags": {
+        "building": "university",
+        "name": "经管楼",
+        "name:zh": "经管楼",
+        "name:zh-Hans": "经管楼",
+        "name:zh-Hant": "經管樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399017728,
+      "center": {
+        "lat": 39.9627861,
+        "lon": 116.3518562
+      },
+      "tags": {
+        "building": "yes",
+        "name": "综合服务楼",
+        "name:zh": "综合服务楼",
+        "name:zh-Hans": "综合服务楼",
+        "name:zh-Hant": "綜合服務樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399017729,
+      "center": {
+        "lat": 39.9631901,
+        "lon": 116.3490733
+      },
+      "tags": {
+        "building": "hotel",
+        "name": "北邮科技酒店",
+        "name:zh": "北邮科技酒店",
+        "name:zh-Hans": "北邮科技酒店",
+        "name:zh-Hant": "北郵科技飯店"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018200,
+      "center": {
+        "lat": 39.9620096,
+        "lon": 116.3529764
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "北京邮电大学学生餐厅(老食堂)",
+        "name:zh": "北京邮电大学学生餐厅",
+        "name:zh-Hans": "北京邮电大学学生餐厅",
+        "name:zh-Hant": "北京郵電大學學生餐廳"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018201,
+      "center": {
+        "lat": 39.9626009,
+        "lon": 116.3538032
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "家属27号楼",
+        "name:zh": "家属27号楼",
+        "name:zh-Hans": "家属27号楼",
+        "name:zh-Hant": "家屬27號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018202,
+      "center": {
+        "lat": 39.9618706,
+        "lon": 116.3538104
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "家属28号楼",
+        "name:zh": "家属28号楼",
+        "name:zh-Hans": "家属28号楼",
+        "name:zh-Hant": "家屬28號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018593,
+      "center": {
+        "lat": 39.9614471,
+        "lon": 116.3544432
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生29号公寓",
+        "name:zh": "学生29号公寓",
+        "name:zh-Hans": "学生29号公寓",
+        "name:zh-Hant": "學生29號公寓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018595,
+      "center": {
+        "lat": 39.9629653,
+        "lon": 116.3543567
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "25号楼",
+        "name:zh": "25号楼",
+        "name:zh-Hans": "25号楼",
+        "name:zh-Hant": "25號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018596,
+      "center": {
+        "lat": 39.9623288,
+        "lon": 116.3543918
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "26号楼",
+        "name:zh": "26号楼",
+        "name:zh-Hans": "26号楼",
+        "name:zh-Hant": "26號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399038559,
+      "center": {
+        "lat": 39.9579128,
+        "lon": 116.353951
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "北京交通大学附属中学分校"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399038561,
+      "center": {
+        "lat": 39.9586419,
+        "lon": 116.3528495
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "19号楼",
+        "name:zh": "19号楼",
+        "name:zh-Hans": "19号楼",
+        "name:zh-Hant": "19號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399038562,
+      "center": {
+        "lat": 39.9599277,
+        "lon": 116.3528331
+      },
+      "tags": {
+        "amenity": "conference_centre",
+        "building": "university",
+        "name": "科学会堂",
+        "name:zh": "科学会堂",
+        "name:zh-Hans": "科学会堂",
+        "name:zh-Hant": "科學會堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399041102,
+      "center": {
+        "lat": 39.9581875,
+        "lon": 116.3530769
+      },
+      "tags": {
+        "amenity": "childcare",
+        "building": "yes",
+        "name": "北京邮电大学幼儿园",
+        "name:zh": "北京邮电大学幼儿园",
+        "name:zh-Hans": "北京邮电大学幼儿园",
+        "name:zh-Hant": "北京郵電大學幼儿園"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399042378,
+      "center": {
+        "lat": 39.9634986,
+        "lon": 116.3528142
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "23号楼",
+        "name:zh": "23号楼",
+        "name:zh-Hans": "23号楼",
+        "name:zh-Hant": "23號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399042379,
+      "center": {
+        "lat": 39.9635226,
+        "lon": 116.3538334
+      },
+      "tags": {
+        "building": "apartments",
+        "name": "24号楼",
+        "name:zh": "24号楼",
+        "name:zh-Hans": "24号楼",
+        "name:zh-Hant": "24號樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399046289,
+      "center": {
+        "lat": 39.9590674,
+        "lon": 116.3502433
+      },
+      "tags": {
+        "building": "university",
+        "name": "教三楼",
+        "name:zh": "教三楼",
+        "name:zh-Hans": "教三楼",
+        "name:zh-Hant": "教三樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399046290,
+      "center": {
+        "lat": 39.9619,
+        "lon": 116.3544978
+      },
+      "tags": {
+        "building": "house",
+        "name": "保卫处"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499427391,
+      "center": {
+        "lat": 39.9623229,
+        "lon": 116.3558651
+      },
+      "tags": {
+        "building": "yes",
+        "name": "生态学研究所"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499428275,
+      "center": {
+        "lat": 39.9618498,
+        "lon": 116.3623464
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "北师大实验小学",
+        "name:zh": "北师大实验小学",
+        "name:zh-Hans": "北师大实验小学",
+        "name:zh-Hant": "北師大實驗小學"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499432986,
+      "center": {
+        "lat": 39.9615182,
+        "lon": 116.3607067
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "教工食堂",
+        "name:zh": "教工食堂",
+        "name:zh-Hans": "教工食堂",
+        "name:zh-Hant": "教工食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433000,
+      "center": {
+        "lat": 39.9615418,
+        "lon": 116.3612441
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "实习餐厅",
+        "name:zh": "实习餐厅",
+        "name:zh-Hans": "实习餐厅",
+        "name:zh-Hant": "實習餐廳"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433263,
+      "center": {
+        "lat": 39.9599392,
+        "lon": 116.3610203
+      },
+      "tags": {
+        "building": "yes",
+        "name": "教六楼",
+        "name:zh": "教六楼",
+        "name:zh-Hans": "教六楼",
+        "name:zh-Hant": "教六樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433322,
+      "center": {
+        "lat": 39.9594017,
+        "lon": 116.3606569
+      },
+      "tags": {
+        "building": "yes",
+        "name": "敬文讲堂",
+        "name:zh": "敬文讲堂",
+        "name:zh-Hans": "敬文讲堂",
+        "name:zh-Hant": "敬文講堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433323,
+      "center": {
+        "lat": 39.9594081,
+        "lon": 116.3611858
+      },
+      "tags": {
+        "building": "yes",
+        "name": "教七楼",
+        "name:zh": "教七楼",
+        "name:zh-Hans": "教七楼",
+        "name:zh-Hant": "教七樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433329,
+      "center": {
+        "lat": 39.9593457,
+        "lon": 116.3599489
+      },
+      "tags": {
+        "building": "yes",
+        "name": "京师学堂",
+        "name:zh": "京师学堂",
+        "name:zh-Hans": "京师学堂",
+        "name:zh-Hant": "京師學堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499435186,
+      "center": {
+        "lat": 39.9584162,
+        "lon": 116.3554903
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学5楼",
+        "name:zh": "学5楼",
+        "name:zh-Hans": "学5楼",
+        "name:zh-Hant": "學5樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499435187,
+      "center": {
+        "lat": 39.9587335,
+        "lon": 116.3565987
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学6楼",
+        "name:zh": "学6楼",
+        "name:zh-Hans": "学6楼",
+        "name:zh-Hant": "學6樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499435188,
+      "center": {
+        "lat": 39.9581177,
+        "lon": 116.3566023
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学7楼",
+        "name:zh": "学7楼",
+        "name:zh-Hans": "学7楼",
+        "name:zh-Hant": "學7樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540297385,
+      "center": {
+        "lat": 39.9591292,
+        "lon": 116.3556971
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "12",
+        "name": "学4楼",
+        "name:zh": "学4楼",
+        "name:zh-Hans": "学4楼",
+        "name:zh-Hant": "學4樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540297386,
+      "center": {
+        "lat": 39.9595115,
+        "lon": 116.3556749
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学3楼",
+        "name:zh": "学3楼",
+        "name:zh-Hans": "学3楼",
+        "name:zh-Hant": "學3樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540297387,
+      "center": {
+        "lat": 39.9600667,
+        "lon": 116.3556449
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学2楼",
+        "name:zh": "学2楼",
+        "name:zh-Hans": "学2楼",
+        "name:zh-Hant": "學2樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 540297388,
+      "center": {
+        "lat": 39.9605562,
+        "lon": 116.3556066
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学1楼",
+        "name:zh": "学1楼",
+        "name:zh-Hans": "学1楼",
+        "name:zh-Hant": "學1樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 556779106,
+      "center": {
+        "lat": 39.9587133,
+        "lon": 116.3661358
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "北京师范大学第二附属中学",
+        "wikidata": "Q7762926",
+        "wikimedia_commons": "Category:Second High School Attached to Beijing Normal University",
+        "wikipedia": "zh:北京师范大学第二附属中学"
+      }
+    },
+    {
+      "type": "way",
+      "id": 582551390,
+      "center": {
+        "lat": 39.9623136,
+        "lon": 116.3516355
+      },
+      "tags": {
+        "brand": "物美",
+        "brand:en": "Wumart",
+        "brand:wikidata": "Q8039225",
+        "brand:zh": "物美",
+        "building": "yes",
+        "name": "物美",
+        "name:en": "Wumart",
+        "name:zh": "物美",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 582551392,
+      "center": {
+        "lat": 39.9635241,
+        "lon": 116.3511565
+      },
+      "tags": {
+        "amenity": "post_office",
+        "building": "yes",
+        "name": "北邮邮驿站",
+        "name:zh": "北邮邮驿站",
+        "name:zh-Hans": "北邮邮驿站",
+        "name:zh-Hant": "北郵郵驛站",
+        "official_name": "北京邮电大学快递服务中心",
+        "opening_hours": "Mo-Su 08:00-20:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657006466,
+      "center": {
+        "lat": 39.9621516,
+        "lon": 116.3621397
+      },
+      "tags": {
+        "building": "yes",
+        "building:height": "10",
+        "name": "B教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657006659,
+      "center": {
+        "lat": 39.9618108,
+        "lon": 116.3617865
+      },
+      "tags": {
+        "building": "yes",
+        "building:height": "22",
+        "building:levels": "3",
+        "name": "C教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657006660,
+      "center": {
+        "lat": 39.9615099,
+        "lon": 116.3621158
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "6",
+        "height": "20",
+        "name": "A教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 657006781,
+      "center": {
+        "lat": 39.9611781,
+        "lon": 116.3578314
+      },
+      "tags": {
+        "building": "yes",
+        "name": "后勤办公楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665142819,
+      "center": {
+        "lat": 39.9634781,
+        "lon": 116.3645868
+      },
+      "tags": {
+        "building": "residential",
+        "building:levels": "5",
+        "name": "23号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665142820,
+      "center": {
+        "lat": 39.9630087,
+        "lon": 116.3647778
+      },
+      "tags": {
+        "building": "residential",
+        "building:levels": "5",
+        "name": "24号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665143609,
+      "center": {
+        "lat": 39.9612305,
+        "lon": 116.3685086
+      },
+      "tags": {
+        "building": "school",
+        "building:levels": "4",
+        "height": "18",
+        "name": "南教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665143610,
+      "center": {
+        "lat": 39.9617069,
+        "lon": 116.368182
+      },
+      "tags": {
+        "building": "school",
+        "building:levels": "2",
+        "height": "6",
+        "name": "图书馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665143611,
+      "center": {
+        "lat": 39.9621978,
+        "lon": 116.3684371
+      },
+      "tags": {
+        "addr:postcode": "100088",
+        "building": "school",
+        "building:levels": "5",
+        "height": "19",
+        "name": "北教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665144997,
+      "center": {
+        "lat": 39.9590702,
+        "lon": 116.3666725
+      },
+      "tags": {
+        "building": "school",
+        "building:levels": "6",
+        "name": "博学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665145000,
+      "center": {
+        "lat": 39.9586188,
+        "lon": 116.3660514
+      },
+      "tags": {
+        "building": "yes",
+        "leisure": "sports_hall",
+        "name": "体育馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665145004,
+      "center": {
+        "lat": 39.9593633,
+        "lon": 116.3665284
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "质朴楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665145010,
+      "center": {
+        "lat": 39.9584729,
+        "lon": 116.3670096
+      },
+      "tags": {
+        "building": "school",
+        "name": "科技楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665146861,
+      "center": {
+        "lat": 39.9579979,
+        "lon": 116.3638093
+      },
+      "tags": {
+        "building": "school",
+        "name": "教二楼",
+        "name:zh": "教二楼",
+        "name:zh-Hans": "教二楼",
+        "name:zh-Hant": "教二樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 665147530,
+      "center": {
+        "lat": 39.9619174,
+        "lon": 116.3577952
+      },
+      "tags": {
+        "building": "school",
+        "name": "标本馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 745626565,
+      "center": {
+        "lat": 39.9653758,
+        "lon": 116.351407
+      },
+      "tags": {
+        "addr:city": "北京",
+        "addr:district": "海淀区",
+        "addr:postcode": "100088",
+        "addr:street": "北三环中路",
+        "building": "apartments",
+        "name": "北三环中路46号院2号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 876388896,
+      "center": {
+        "lat": 39.9686076,
+        "lon": 116.3685211
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "北京交通大学附属中学（东校区）",
+        "name:zh": "北京交通大学附属中学（东校区）",
+        "name:zh-Hans": "北京交通大学附属中学（东校区）",
+        "name:zh-Hant": "北京交通大學附屬中學（東校區）"
+      }
+    },
+    {
+      "type": "way",
+      "id": 915345954,
+      "center": {
+        "lat": 39.9626761,
+        "lon": 116.369123
+      },
+      "tags": {
+        "building": "school",
+        "building:levels": "2",
+        "height": "9",
+        "name": "文体馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 915345955,
+      "center": {
+        "lat": 39.9622638,
+        "lon": 116.3690172
+      },
+      "tags": {
+        "building": "school",
+        "building:levels": "1",
+        "height": "8",
+        "name": "阶梯教室"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916885284,
+      "center": {
+        "lat": 39.9621537,
+        "lon": 116.3695245
+      },
+      "tags": {
+        "building": "pavilion",
+        "building:levels": "2",
+        "height": "9",
+        "name": "体育馆"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916885295,
+      "center": {
+        "lat": 39.9630524,
+        "lon": 116.3690327
+      },
+      "tags": {
+        "building": "yes",
+        "name": "新风北里6号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 944686231,
+      "center": {
+        "lat": 39.9643019,
+        "lon": 116.3595453
+      },
+      "tags": {
+        "amenity": "school",
+        "name": "北京师范大学第三附属中学",
+        "name:zh": "北京师范大学第三附属中学",
+        "name:zh-Hans": "北京师范大学第三附属中学",
+        "name:zh-Hant": "北京師範大學第三附屬中學"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013301454,
+      "center": {
+        "lat": 39.9657248,
+        "lon": 116.353758
+      },
+      "tags": {
+        "addr:city": "北京",
+        "addr:district": "海淀区",
+        "addr:housenumber": "44",
+        "addr:postcode": "100088",
+        "addr:province": "北京市",
+        "addr:street": "北三环中路",
+        "building": "no",
+        "man_made": "works",
+        "name": "人民教育出版社印刷厂",
+        "name:en": "Publisher of People's Education Press",
+        "operator": "人民教育出版社",
+        "product": "books",
+        "source": "aerial imagery;gps;streetlevel imagery"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087856281,
+      "center": {
+        "lat": 39.958406,
+        "lon": 116.3561967
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "-1",
+        "name": "学18楼",
+        "name:zh": "学18楼",
+        "name:zh-Hans": "学18楼",
+        "name:zh-Hant": "學18樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087856282,
+      "center": {
+        "lat": 39.9584306,
+        "lon": 116.3569978
+      },
+      "tags": {
+        "building": "yes",
+        "name": "学17楼",
+        "name:zh": "学17楼",
+        "name:zh-Hans": "学17楼",
+        "name:zh-Hant": "學17樓"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1309218427,
+      "center": {
+        "lat": 39.9641738,
+        "lon": 116.3570744
+      },
+      "tags": {
+        "building": "apartments",
+        "building:height": "48",
+        "building:levels": "16",
+        "building:levels:underground": "1",
+        "name": "40号院3号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1321992518,
+      "center": {
+        "lat": 39.9623009,
+        "lon": 116.3627788
+      },
+      "tags": {
+        "building": "public",
+        "building:levels": "0",
+        "height": "2",
+        "name": "小竹林",
+        "roof:levels": "0"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1323721307,
+      "center": {
+        "lat": 39.9621582,
+        "lon": 116.3618363
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "name": "D教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1324241618,
+      "center": {
+        "lat": 39.9616885,
+        "lon": 116.3617943
+      },
+      "tags": {
+        "building": "yes",
+        "name": "连接处"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1327982493,
+      "center": {
+        "lat": 39.9621487,
+        "lon": 116.3621872
+      },
+      "tags": {
+        "building": "yes",
+        "name": "B教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1337965298,
+      "center": {
+        "lat": 39.9639418,
+        "lon": 116.3646618
+      },
+      "tags": {
+        "building": "residential",
+        "building:levels": "5",
+        "name": "22号楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1337965299,
+      "center": {
+        "lat": 39.9631835,
+        "lon": 116.3649432
+      },
+      "tags": {
+        "building": "bungalow",
+        "name": "小区物业"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1343493396,
+      "center": {
+        "lat": 39.9659082,
+        "lon": 116.3492052
+      },
+      "tags": {
+        "building": "transportation",
+        "name": "蓟门桥"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1343493398,
+      "center": {
+        "lat": 39.9667733,
+        "lon": 116.3511147
+      },
+      "tags": {
+        "building": "transportation",
+        "name": "蓟门桥"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1343493399,
+      "center": {
+        "lat": 39.9672157,
+        "lon": 116.3491787
+      },
+      "tags": {
+        "building": "transportation",
+        "name": "蓟门桥"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1343493401,
+      "center": {
+        "lat": 39.96696,
+        "lon": 116.3488351
+      },
+      "tags": {
+        "building": "transportation",
+        "name": "蓟门桥"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1347758624,
+      "center": {
+        "lat": 39.967509,
+        "lon": 116.3513737
+      },
+      "tags": {
+        "building": "yes",
+        "name": "荣宁府"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1375509854,
+      "center": {
+        "lat": 39.9591836,
+        "lon": 116.3533041
+      },
+      "tags": {
+        "building": "yes",
+        "name": "体育部"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1375595585,
+      "center": {
+        "lat": 39.959244,
+        "lon": 116.3526746
+      },
+      "tags": {
+        "building": "bungalow",
+        "name": "中心机房"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1375595586,
+      "center": {
+        "lat": 39.9586224,
+        "lon": 116.3512199
+      },
+      "tags": {
+        "building": "yes",
+        "name": "收发室"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376105799,
+      "center": {
+        "lat": 39.9600255,
+        "lon": 116.3491013
+      },
+      "tags": {
+        "building": "yes",
+        "name": "基建修缮部"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376641640,
+      "center": {
+        "lat": 39.9625662,
+        "lon": 116.3530894
+      },
+      "tags": {
+        "building": "yes",
+        "name": "校史馆",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376641642,
+      "center": {
+        "lat": 39.9631375,
+        "lon": 116.3517401
+      },
+      "tags": {
+        "building": "yes",
+        "name": "大学生创新创业实践基地"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376682968,
+      "center": {
+        "lat": 39.9620107,
+        "lon": 116.3522492
+      },
+      "tags": {
+        "building": "yes",
+        "name": "接诉即办"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376682970,
+      "center": {
+        "lat": 39.9621879,
+        "lon": 116.3522401
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "学苑风味餐厅(矮食堂)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1377379919,
+      "center": {
+        "lat": 39.9618456,
+        "lon": 116.3611346
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "教工食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1381082299,
+      "center": {
+        "lat": 39.9588438,
+        "lon": 116.35818
+      },
+      "tags": {
+        "building": "bungalow",
+        "name": "北师报亭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1381895639,
+      "center": {
+        "lat": 39.9595544,
+        "lon": 116.3597148
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "五四纪念广场"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1387940383,
+      "center": {
+        "lat": 39.9583682,
+        "lon": 116.3614857
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "牡丹园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1388502966,
+      "center": {
+        "lat": 39.961552,
+        "lon": 116.36153
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "南航空厨"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1459447295,
+      "center": {
+        "lat": 39.9594377,
+        "lon": 116.3593812
+      },
+      "tags": {
+        "building": "yes",
+        "name": "工程实践中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1459447301,
+      "center": {
+        "lat": 39.9598017,
+        "lon": 116.3613722
+      },
+      "tags": {
+        "leisure": "garden",
+        "name": "曦园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1472544043,
+      "center": {
+        "lat": 39.9616611,
+        "lon": 116.3685984
+      },
+      "tags": {
+        "addr:postcode": "100088",
+        "leisure": "park",
+        "name": "三帆小花园",
+        "operator": "北京市三帆中学",
+        "operator:type": "school"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1488785337,
+      "center": {
+        "lat": 39.961761,
+        "lon": 116.3694098
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "5",
+        "height": "20",
+        "name": "东教学楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1491379803,
+      "center": {
+        "lat": 39.9589441,
+        "lon": 116.3667935
+      },
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "祖冲之亭",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9605496,
+      "center": {
+        "lat": 39.9592162,
+        "lon": 116.35399
+      },
+      "tags": {
+        "leisure": "track",
+        "name": "体育场",
+        "name:zh": "体育场",
+        "name:zh-Hans": "体育场",
+        "name:zh-Hant": "體育場",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 9637672,
+      "center": {
+        "lat": 39.9599683,
+        "lon": 116.3635326
+      },
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "8",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "building": "apartments",
+        "name": "励耘学苑",
+        "name:zh": "励耘学苑",
+        "name:zh-Hans": "励耘学苑",
+        "name:zh-Hant": "勵耘學苑",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 13296936,
+      "center": {
+        "lat": 39.9661723,
+        "lon": 116.3875719
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "元大都城垣遗址公园",
+        "site": "park",
+        "type": "site",
+        "wikidata": "Q15908686",
+        "wikipedia": "zh:元大都城垣遗址公园"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 18974411,
+      "center": {
+        "lat": 39.9632164,
+        "lon": 116.3504384
+      },
+      "tags": {
+        "building": "dormitory",
+        "name": "学生10号公寓",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 20151457,
+      "center": {
+        "lat": 39.9620073,
+        "lon": 116.3688948
+      },
+      "tags": {
+        "addr:postcode": "100088",
+        "amenity": "school",
+        "grades": "7-9",
+        "name": "北京市三帆中学",
+        "type": "multipolygon",
+        "website": "https://www.sanfan.cn/",
+        "wikidata": "Q7762926",
+        "wikimedia_commons": "Category:Second High School Attached to Beijing Normal University",
+        "wikipedia": "zh:北京师范大学第二附属中学"
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+[
+  {
+    "name": "BUPT_Main_Campus",
+    "label": "北京邮电大学校园",
+    "city": "北京",
+    "supports_routing": true,
+    "nodes": [
+      {
+        "code": "BUPT_GATE",
+        "name": "麦当劳",
+        "latitude": 39.9600741,
+        "longitude": 116.3640842
+      },
+      {
+        "code": "BUPT_LIB",
+        "name": "北京国都医院",
+        "latitude": 39.9672105,
+        "longitude": 116.3614418
+      },
+      {
+        "code": "BUPT_03",
+        "name": "总政北太平庄招待所",
+        "latitude": 39.965625,
+        "longitude": 116.3578268
+      },
+      {
+        "code": "BUPT_04",
+        "name": "御马墩",
+        "latitude": 39.9598048,
+        "longitude": 116.3641192
+      },
+      {
+        "code": "BUPT_05",
+        "name": "12橡树咖啡",
+        "latitude": 39.9603023,
+        "longitude": 116.3640468
+      },
+      {
+        "code": "BUPT_06",
+        "name": "校训石",
+        "latitude": 39.9598565,
+        "longitude": 116.3501595
+      },
+      {
+        "code": "BUPT_07",
+        "name": "毛主席像",
+        "latitude": 39.9598622,
+        "longitude": 116.3506473
+      },
+      {
+        "code": "BUPT_08",
+        "name": "格林联盟酒店",
+        "latitude": 39.967153,
+        "longitude": 116.3508592
+      },
+      {
+        "code": "BUPT_09",
+        "name": "零壹时光咖啡馆",
+        "latitude": 39.9582958,
+        "longitude": 116.3505065
+      },
+      {
+        "code": "BUPT_10",
+        "name": "南区超市",
+        "latitude": 39.9581307,
+        "longitude": 116.3510136
+      },
+      {
+        "code": "BUPT_11",
+        "name": "中国建设银行",
+        "latitude": 39.9672713,
+        "longitude": 116.3645893
+      },
+      {
+        "code": "BUPT_12",
+        "name": "中国光大银行",
+        "latitude": 39.9672878,
+        "longitude": 116.3652652
+      },
+      {
+        "code": "BUPT_13",
+        "name": "苏宁电器",
+        "latitude": 39.9676537,
+        "longitude": 116.3645624
+      },
+      {
+        "code": "BUPT_14",
+        "name": "物美",
+        "latitude": 39.9676208,
+        "longitude": 116.3645571
+      },
+      {
+        "code": "BUPT_15",
+        "name": "招商银行",
+        "latitude": 39.9675715,
+        "longitude": 116.3645624
+      },
+      {
+        "code": "BUPT_16",
+        "name": "捷安特",
+        "latitude": 39.9671605,
+        "longitude": 116.3634256
+      },
+      {
+        "code": "BUPT_17",
+        "name": "国美电器",
+        "latitude": 39.9659326,
+        "longitude": 116.3576679
+      },
+      {
+        "code": "BUPT_18",
+        "name": "如家快捷酒店",
+        "latitude": 39.9659352,
+        "longitude": 116.3575784
+      },
+      {
+        "code": "BUPT_19",
+        "name": "速8酒店",
+        "latitude": 39.9660808,
+        "longitude": 116.3661381
+      },
+      {
+        "code": "BUPT_20",
+        "name": "北京银行",
+        "latitude": 39.9659344,
+        "longitude": 116.3560861
+      }
+    ]
+  },
+  {
+    "name": "Summer_Palace",
+    "label": "颐和园景区",
+    "city": "北京",
+    "supports_routing": true,
+    "nodes": [
+      {
+        "code": "SUMMER_01",
+        "name": "铜牛",
+        "latitude": 39.9894163,
+        "longitude": 116.2734196
+      },
+      {
+        "code": "SUMMER_02",
+        "name": "水木自亲码头",
+        "latitude": 39.9970578,
+        "longitude": 116.2723183
+      },
+      {
+        "code": "SUMMER_03",
+        "name": "日月成辉",
+        "latitude": 39.996505,
+        "longitude": 116.2729818
+      },
+      {
+        "code": "SUMMER_04",
+        "name": "碧桐书院",
+        "latitude": 40.0062327,
+        "longitude": 116.2914331
+      },
+      {
+        "code": "SUMMER_05",
+        "name": "颐和园消防队",
+        "latitude": 39.9956379,
+        "longitude": 116.2761328
+      },
+      {
+        "code": "SUMMER_06",
+        "name": "中发穿越",
+        "latitude": 39.99631,
+        "longitude": 116.2854459
+      },
+      {
+        "code": "SUMMER_07",
+        "name": "肯德基",
+        "latitude": 40.0015905,
+        "longitude": 116.2714995
+      },
+      {
+        "code": "SUMMER_08",
+        "name": "苏州街",
+        "latitude": 40.0006597,
+        "longitude": 116.2685775
+      },
+      {
+        "code": "SUMMER_09",
+        "name": "颐和园",
+        "latitude": 39.996719,
+        "longitude": 116.2757976
+      },
+      {
+        "code": "SUMMER_10",
+        "name": "麦当劳",
+        "latitude": 39.9969845,
+        "longitude": 116.2839487
+      },
+      {
+        "code": "SUMMER_11",
+        "name": "必胜客",
+        "latitude": 39.9970841,
+        "longitude": 116.2835556
+      },
+      {
+        "code": "SUMMER_12",
+        "name": "星巴克",
+        "latitude": 39.9971274,
+        "longitude": 116.2832798
+      },
+      {
+        "code": "SUMMER_13",
+        "name": "正大光明",
+        "latitude": 40.0018877,
+        "longitude": 116.2905169
+      },
+      {
+        "code": "SUMMER_14",
+        "name": "长春仙馆",
+        "latitude": 40.0019342,
+        "longitude": 116.2886629
+      },
+      {
+        "code": "SUMMER_15",
+        "name": "九洲清晏",
+        "latitude": 40.002875,
+        "longitude": 116.2905356
+      },
+      {
+        "code": "SUMMER_16",
+        "name": "坦坦荡荡",
+        "latitude": 40.0037908,
+        "longitude": 116.2884014
+      },
+      {
+        "code": "SUMMER_17",
+        "name": "杏花春馆",
+        "latitude": 40.004703,
+        "longitude": 116.2882333
+      },
+      {
+        "code": "SUMMER_18",
+        "name": "上下天光",
+        "latitude": 40.0054721,
+        "longitude": 116.2894568
+      },
+      {
+        "code": "SUMMER_19",
+        "name": "慈云普护",
+        "latitude": 40.0057582,
+        "longitude": 116.2904329
+      },
+      {
+        "code": "SUMMER_20",
+        "name": "镂月开云",
+        "latitude": 40.0037768,
+        "longitude": 116.2919332
+      }
+    ]
+  },
+  {
+    "name": "Shanghai_City_View",
+    "label": "上海城市精选地图",
+    "city": "上海",
+    "supports_routing": false,
+    "nodes": []
+  },
+  {
+    "name": "Guangzhou_City_View",
+    "label": "广州城市精选地图",
+    "city": "广州",
+    "supports_routing": false,
+    "nodes": []
+  },
+  {
+    "name": "Shenzhen_City_View",
+    "label": "深圳城市精选地图",
+    "city": "深圳",
+    "supports_routing": false,
+    "nodes": []
+  }
+]

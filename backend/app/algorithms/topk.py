@@ -1,0 +1,69 @@
+from __future__ import annotations
+
+import heapq
+from dataclasses import dataclass
+from typing import Callable, Iterable, Sequence, TypeVar
+
+T = TypeVar("T")
+
+
+@dataclass(slots=True)
+class RankedItem:
+    item: dict
+    score: float
+
+
+class TopKSelector:
+    """Maintain top-k elements without fully sorting the whole sequence."""
+
+    def __init__(self, scorer: Callable[[T], float]) -> None:
+        self.scorer = scorer
+
+    def select(self, items: Iterable[T], k: int) -> list[T]:
+        if k <= 0:
+            return []
+
+        heap: list[tuple[float, T]] = []
+        for item in items:
+            score = self.scorer(item)
+            if len(heap) < k:
+                heapq.heappush(heap, (score, item))
+                continue
+            if score > heap[0][0]:
+                heapq.heapreplace(heap, (score, item))
+
+        return [item for _, item in sorted(heap, key=lambda pair: pair[0], reverse=True)]
+
+
+def quickselect_top_k(items: Sequence[T], k: int, scorer: Callable[[T], float]) -> list[T]:
+    if k <= 0:
+        return []
+    if k >= len(items):
+        return sorted(items, key=scorer, reverse=True)
+
+    working = list(items)
+
+    def partition(left: int, right: int, pivot_index: int) -> int:
+        pivot_score = scorer(working[pivot_index])
+        working[pivot_index], working[right] = working[right], working[pivot_index]
+        store_index = left
+        for idx in range(left, right):
+            if scorer(working[idx]) > pivot_score:
+                working[store_index], working[idx] = working[idx], working[store_index]
+                store_index += 1
+        working[right], working[store_index] = working[store_index], working[right]
+        return store_index
+
+    left, right = 0, len(working) - 1
+    target = k - 1
+    while left <= right:
+        pivot_index = (left + right) // 2
+        pivot_index = partition(left, right, pivot_index)
+        if pivot_index == target:
+            break
+        if pivot_index < target:
+            left = pivot_index + 1
+        else:
+            right = pivot_index - 1
+
+    return sorted(working[:k], key=scorer, reverse=True)

@@ -1,0 +1,443 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-03-23T23:16:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 973340625,
+      "lat": 39.9600741,
+      "lon": 116.3640842,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "name:zh-Hant": "麥當勞",
+        "name:zh-Latn-pinyin": "Màidāngláo",
+        "takeaway": "yes",
+        "website": "http://mcdonalds.com.cn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1924725186,
+      "lat": 39.9598048,
+      "lon": 116.3641192,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "御马墩",
+        "name:zh": "御马墩",
+        "name:zh-Hans": "御马墩",
+        "name:zh-Hant": "禦馬墩"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1924729425,
+      "lat": 39.9603023,
+      "lon": 116.3640468,
+      "tags": {
+        "addr:housename": "励耘学苑",
+        "addr:housenumber": "19",
+        "addr:postcode": "100875",
+        "addr:street": "新街口外大街",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "12橡树咖啡",
+        "name:zh": "12橡树咖啡",
+        "name:zh-Hans": "12橡树咖啡",
+        "name:zh-Hant": "12橡樹咖啡"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3511264385,
+      "lat": 39.9582958,
+      "lon": 116.3505065,
+      "tags": {
+        "amenity": "cafe",
+        "name": "零壹时光咖啡馆",
+        "name:en": "Zero-One Times Cafe",
+        "name:zh": "零壹时光咖啡馆",
+        "name:zh-Hans": "零壹时光咖啡馆",
+        "name:zh-Hant": "零壹時光咖啡館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3815571543,
+      "lat": 39.9659344,
+      "lon": 116.3567103,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "金狮麟酒店"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4238855103,
+      "lat": 39.9637034,
+      "lon": 116.3504776,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "鱼味小馆",
+        "name:zh": "鱼味小馆",
+        "name:zh-Hans": "鱼味小馆",
+        "name:zh-Hant": "魚味小館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5794747098,
+      "lat": 39.9636972,
+      "lon": 116.359826,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "白鹿江西餐厅",
+        "name:zh": "白鹿江西餐厅",
+        "name:zh-Hans": "白鹿江西餐厅",
+        "name:zh-Hant": "白鹿江西餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082649,
+      "lat": 39.9598828,
+      "lon": 116.3632713,
+      "tags": {
+        "amenity": "restaurant",
+        "fast_food": "cafeteria",
+        "name": "学生第六食堂(留学生食堂)",
+        "name:zh": "学生第六食堂",
+        "name:zh-Hans": "学生第六食堂",
+        "name:zh-Hant": "學生第六食堂"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082650,
+      "lat": 39.962164,
+      "lon": 116.3639603,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "八喜日本料理",
+        "name:zh": "八喜日本料理",
+        "name:zh-Hans": "八喜日本料理",
+        "name:zh-Hant": "八喜日本料理"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041082651,
+      "lat": 39.962026,
+      "lon": 116.3639774,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "爱德堡西餐咖啡吧",
+        "name:zh": "爱德堡西餐咖啡吧",
+        "name:zh-Hans": "爱德堡西餐咖啡吧",
+        "name:zh-Hant": "愛德堡西餐咖啡吧"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100036,
+      "lat": 39.961991,
+      "lon": 116.352893,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "楼上楼茶餐厅",
+        "name:zh": "楼上楼茶餐厅",
+        "name:zh-Hans": "楼上楼茶餐厅",
+        "name:zh-Hant": "樓上樓茶餐廳"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100037,
+      "lat": 39.9659902,
+      "lon": 116.3550325,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "正宗西安羊肉泡馍"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100038,
+      "lat": 39.9660301,
+      "lon": 116.355241,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "潮汕渔村"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041100039,
+      "lat": 39.9656946,
+      "lon": 116.3550117,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "LAKER'S（北太平庄店）"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6041738525,
+      "lat": 39.9659585,
+      "lon": 116.3572677,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "福口居京味涮肉"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6395371262,
+      "lat": 39.9656376,
+      "lon": 116.3549357,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "汤本味赣苑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12735976946,
+      "lat": 39.9642474,
+      "lon": 116.3515996,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "博士居"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716524,
+      "lat": 39.9650242,
+      "lon": 116.3543937,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "金谷园饺子馆"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753716536,
+      "lat": 39.9623777,
+      "lon": 116.3517244,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12753720328,
+      "lat": 39.9623403,
+      "lon": 116.3515996,
+      "tags": {
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "虎头军煎饼"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12841510154,
+      "lat": 39.9648184,
+      "lon": 116.3530237,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "瑞幸咖啡",
+        "brand:en": "Luckin Coffee",
+        "brand:wikidata": "Q56811344",
+        "brand:zh": "瑞幸咖啡",
+        "cuisine": "coffee_shop",
+        "name": "瑞幸咖啡",
+        "name:en": "Luckin Coffee",
+        "name:zh": "瑞幸咖啡",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12948635277,
+      "lat": 39.960286,
+      "lon": 116.3635951,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Canada咖啡"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265030102,
+      "center": {
+        "lat": 39.9623014,
+        "lon": 116.351346
+      },
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:zh": "麦当劳",
+        "building": "yes",
+        "cuisine": "burger",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "outdoor_seating": "yes",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399013934,
+      "center": {
+        "lat": 39.9625975,
+        "lon": 116.3503929
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "综合食堂(新食堂)",
+        "name:zh": "综合食堂",
+        "name:zh-Hans": "综合食堂",
+        "name:zh-Hant": "綜合食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399018200,
+      "center": {
+        "lat": 39.9620096,
+        "lon": 116.3529764
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "北京邮电大学学生餐厅(老食堂)",
+        "name:zh": "北京邮电大学学生餐厅",
+        "name:zh-Hans": "北京邮电大学学生餐厅",
+        "name:zh-Hant": "北京郵電大學學生餐廳"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499432986,
+      "center": {
+        "lat": 39.9615182,
+        "lon": 116.3607067
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "fast_food": "cafeteria",
+        "name": "教工食堂",
+        "name:zh": "教工食堂",
+        "name:zh-Hans": "教工食堂",
+        "name:zh-Hant": "教工食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499433000,
+      "center": {
+        "lat": 39.9615418,
+        "lon": 116.3612441
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "实习餐厅",
+        "name:zh": "实习餐厅",
+        "name:zh-Hans": "实习餐厅",
+        "name:zh-Hant": "實習餐廳"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1376682970,
+      "center": {
+        "lat": 39.9621879,
+        "lon": 116.3522401
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "学苑风味餐厅(矮食堂)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1377379919,
+      "center": {
+        "lat": 39.9618456,
+        "lon": 116.3611346
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "教工食堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1388502966,
+      "center": {
+        "lat": 39.961552,
+        "lon": 116.36153
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "南航空厨"
+      }
+    }
+  ]
+}

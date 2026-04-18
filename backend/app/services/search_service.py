@@ -1,0 +1,43 @@
+from __future__ import annotations
+
+from app.algorithms.search import HashIndex, InvertedIndex, TrieIndex
+from app.repositories.data_loader import DatasetRepository
+
+
+class SearchService:
+    def __init__(self, repository: DatasetRepository) -> None:
+        self.repository = repository
+        self.hash_index = HashIndex()
+        self.trie = TrieIndex()
+        self.inverted = InvertedIndex()
+        self._built = False
+
+    def _ensure_index(self) -> None:
+        if self._built:
+            return
+        items = self.repository.destinations()
+        self.hash_index.build(items, "name")
+        self.inverted.build(items, ["name", "district", "description"], "source_id")
+        for item in items:
+            self.trie.insert(item["name"], item["source_id"])
+        self._built = True
+
+    def exact_search(self, query: str) -> dict | None:
+        self._ensure_index()
+        return self.hash_index.get(query)
+
+    def fuzzy_search(self, query: str, keywords: list[str], category: str | None = None) -> list[dict]:
+        self._ensure_index()
+        items = self.repository.destinations()
+        prefix_matches = self.trie.prefix_search(query) if query else set()
+        keyword_matches = self.inverted.search(keywords) if keywords else set()
+        if prefix_matches and keyword_matches:
+            matched_ids = prefix_matches & keyword_matches
+        else:
+            matched_ids = prefix_matches or keyword_matches
+        if not matched_ids and query:
+            matched_ids = self.trie.prefix_search(query[:2])
+        results = [item for item in items if item["source_id"] in matched_ids]
+        if category:
+            results = [item for item in results if item["category"] == category]
+        return results

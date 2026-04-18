@@ -1,0 +1,2154 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-18T05:53:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 269708600,
+      "lat": 39.9894163,
+      "lon": 116.2734196,
+      "tags": {
+        "name": "铜牛",
+        "name:en": "Bronze Ox",
+        "name:zh": "铜牛",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 274942596,
+      "lat": 39.9970578,
+      "lon": 116.2723183,
+      "tags": {
+        "name": "水木自亲码头",
+        "name:zh-Hant": "水木自親碼頭",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 274942613,
+      "lat": 39.996505,
+      "lon": 116.2729818,
+      "tags": {
+        "name": "日月成辉",
+        "name:zh-Latn-pinyin": "Ri Yue Cheng Hui",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "type": "node",
+      "id": 494772546,
+      "lat": 40.0062327,
+      "lon": 116.2914331,
+      "tags": {
+        "name": "碧桐书院",
+        "name:en": "Library of Green Tree",
+        "name:zh": "碧桐书院",
+        "name:zh-Hans": "碧桐书院",
+        "name:zh-Hant": "碧桐書院",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1422005598,
+      "lat": 39.9956379,
+      "lon": 116.2761328,
+      "tags": {
+        "amenity": "toilets",
+        "fee": "no",
+        "name": "颐和园消防队",
+        "opening_hours": "Mo-Su 05:00-23:00; Apr 1-Oct 31 05:00-24:00",
+        "operator": "海淀区环境卫生服务中心",
+        "phone": "68716285;62555813",
+        "ref": "1081021s010",
+        "ref:manager": "1-001",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1855705968,
+      "lat": 39.99631,
+      "lon": 116.2854459,
+      "tags": {
+        "name": "中发穿越",
+        "opening_hours": "Mo-Su 10:00-21:00",
+        "shop": "outdoor"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1922053560,
+      "lat": 40.0015905,
+      "lon": 116.2714995,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "operator": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4471021689,
+      "lat": 40.0006597,
+      "lon": 116.2685775,
+      "tags": {
+        "name": "苏州街",
+        "name:en": "Suzhou street",
+        "name:fr": "Rue Suzhou",
+        "name:nl": "Suzhoustraat",
+        "name:zh": "苏州街",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4822625121,
+      "lat": 39.996719,
+      "lon": 116.2757976,
+      "tags": {
+        "name": "颐和园",
+        "name:de": "(Neuer) Sommerpalast",
+        "name:en": "Summer Palace",
+        "name:th": "พระราชวังฤดูร้อน",
+        "name:zh": "颐和园",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396425,
+      "lat": 39.9969845,
+      "lon": 116.2839487,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396524,
+      "lat": 39.9970841,
+      "lon": 116.2835556,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "必胜客",
+        "brand:en": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "zh:必胜客",
+        "brand:zh": "必胜客",
+        "cuisine": "pizza",
+        "name": "必胜客",
+        "name:en": "Pizza Hut",
+        "name:zh": "必胜客"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396526,
+      "lat": 39.9971274,
+      "lon": 116.2832798,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "zh:星巴克",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565511,
+      "lat": 40.0018877,
+      "lon": 116.2905169,
+      "tags": {
+        "name": "正大光明",
+        "name:zh": "正大光明",
+        "name:zh-Hans": "正大光明",
+        "name:zh-Hant": "正大光明",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565512,
+      "lat": 40.0019342,
+      "lon": 116.2886629,
+      "tags": {
+        "leisure": "park",
+        "name": "长春仙馆",
+        "name:zh": "长春仙馆",
+        "name:zh-Hans": "长春仙馆",
+        "name:zh-Hant": "長春仙館"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565513,
+      "lat": 40.002875,
+      "lon": 116.2905356,
+      "tags": {
+        "name": "九洲清晏",
+        "name:zh": "九洲清晏",
+        "name:zh-Hans": "九洲清晏",
+        "name:zh-Hant": "九洲清晏",
+        "old_name": "九州景区",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565514,
+      "lat": 40.0037908,
+      "lon": 116.2884014,
+      "tags": {
+        "name": "坦坦荡荡",
+        "name:zh": "坦坦荡荡",
+        "name:zh-Hans": "坦坦荡荡",
+        "name:zh-Hant": "坦坦蕩蕩",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565515,
+      "lat": 40.004703,
+      "lon": 116.2882333,
+      "tags": {
+        "name": "杏花春馆",
+        "name:zh": "杏花春馆",
+        "name:zh-Hans": "杏花春馆",
+        "name:zh-Hant": "杏花春館",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565516,
+      "lat": 40.0054721,
+      "lon": 116.2894568,
+      "tags": {
+        "name": "上下天光",
+        "name:zh": "上下天光",
+        "name:zh-Hans": "上下天光",
+        "name:zh-Hant": "上下天光",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221565517,
+      "lat": 40.0057582,
+      "lon": 116.2904329,
+      "tags": {
+        "name": "慈云普护",
+        "name:zh": "慈云普护",
+        "name:zh-Hans": "慈云普护",
+        "name:zh-Hant": "慈雲普護",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566421,
+      "lat": 40.0037768,
+      "lon": 116.2919332,
+      "tags": {
+        "name": "镂月开云",
+        "name:zh": "镂月开云",
+        "name:zh-Hans": "镂月开云",
+        "name:zh-Hant": "鏤月開雲",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566424,
+      "lat": 40.0033126,
+      "lon": 116.2863976,
+      "tags": {
+        "name": "山高水长",
+        "name:zh": "山高水长",
+        "name:zh-Hans": "山高水长",
+        "name:zh-Hant": "山高水長",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566425,
+      "lat": 40.0055691,
+      "lon": 116.2866903,
+      "tags": {
+        "name": "万方安和",
+        "name:zh": "万方安和",
+        "name:zh-Hans": "万方安和",
+        "name:zh-Hant": "萬方安和",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566426,
+      "lat": 40.0063183,
+      "lon": 116.287379,
+      "tags": {
+        "name": "武陵春色",
+        "name:zh": "武陵春色",
+        "name:zh-Hans": "武陵春色",
+        "name:zh-Hant": "武陵春色",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566427,
+      "lat": 40.0085098,
+      "lon": 116.285565,
+      "tags": {
+        "name": "日光琳宇",
+        "name:zh": "日光琳宇",
+        "name:zh-Hans": "日光琳宇",
+        "name:zh-Hant": "日光琳宇",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566428,
+      "lat": 40.0087454,
+      "lon": 116.2836944,
+      "tags": {
+        "name": "鸿慈永祜",
+        "name:zh": "鸿慈永祜",
+        "name:zh-Hans": "鸿慈永祜",
+        "name:zh-Hant": "鴻慈永祜",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566429,
+      "lat": 40.006055,
+      "lon": 116.2841011,
+      "tags": {
+        "name": "月地云居",
+        "name:zh": "月地云居",
+        "name:zh-Hans": "月地云居",
+        "name:zh-Hant": "月地雲居",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566430,
+      "lat": 40.0094419,
+      "lon": 116.2876468,
+      "tags": {
+        "name": "濂溪乐处",
+        "name:zh": "濂溪乐处",
+        "name:zh-Hans": "濂溪乐处",
+        "name:zh-Hant": "濂溪乐处",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566431,
+      "lat": 40.0091076,
+      "lon": 116.2901938,
+      "tags": {
+        "name": "水流云在",
+        "name:zh": "水流云在",
+        "name:zh-Hans": "水流云在",
+        "name:zh-Hant": "水流雲在",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566433,
+      "lat": 40.0102567,
+      "lon": 116.2856421,
+      "tags": {
+        "name": "汇芳书院",
+        "name:zh": "汇芳书院",
+        "name:zh-Hans": "汇芳书院",
+        "name:zh-Hant": "匯芳書院",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566434,
+      "lat": 40.0108003,
+      "lon": 116.2894557,
+      "tags": {
+        "name": "多稼如云",
+        "name:zh": "多稼如云",
+        "name:zh-Hans": "多稼如云",
+        "name:zh-Hant": "多稼如雲",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5221566435,
+      "lat": 40.0115362,
+      "lon": 116.2883602,
+      "tags": {
+        "name": "北远山村",
+        "name:zh": "北远山村",
+        "name:zh-Hans": "北远山村",
+        "name:zh-Hant": "北遠山村",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515645721,
+      "lat": 39.9970301,
+      "lon": 116.2738065,
+      "tags": {
+        "name": "德和园",
+        "name:de": "Garten der Tugend und Harmonie",
+        "name:en": "Garden of virtue and harmony",
+        "name:nl": "Tuin van Deugdzaamheid en Harmonie",
+        "name:zh": "德和园",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5546986118,
+      "lat": 40.0077862,
+      "lon": 116.2903235,
+      "tags": {
+        "name": "淡泊宁静",
+        "name:zh": "淡泊宁静",
+        "name:zh-Hans": "淡泊宁静",
+        "name:zh-Hant": "淡泊寧靜",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5588940827,
+      "lat": 40.0082952,
+      "lon": 116.2853265,
+      "tags": {
+        "information": "board",
+        "name": "Overall Plan",
+        "name:en": "Overall Plan",
+        "source": "https://www.flickr.com/photos/125134384@N03/33028778533/in/album-72157678942446813/",
+        "tourism": "information"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5643497521,
+      "lat": 39.99541,
+      "lon": 116.2744657,
+      "tags": {
+        "name": "文昌阁",
+        "name:en": "Wenchang Gallery",
+        "name:zh": "文昌阁",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6076062979,
+      "lat": 40.0071043,
+      "lon": 116.2892176,
+      "tags": {
+        "name": "映水兰香",
+        "name:zh": "映水兰香",
+        "name:zh-Hans": "映水兰香",
+        "name:zh-Hant": "映水蘭香",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6189617744,
+      "lat": 40.0032288,
+      "lon": 116.2884934,
+      "tags": {
+        "name": "茹古涵今",
+        "name:zh": "茹古涵今",
+        "name:zh-Hans": "茹古涵今",
+        "name:zh-Hant": "茹古涵今",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6385011810,
+      "lat": 39.9980562,
+      "lon": 116.2679373,
+      "tags": {
+        "name": "佛香阁",
+        "name:en": "Buddha Incense Gallery",
+        "name:zh": "佛香阁",
+        "name:zh-Latn-pinyin": "Fú xiāng gé",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6420561939,
+      "lat": 39.9968835,
+      "lon": 116.2690743,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "餐厅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6813634466,
+      "lat": 39.9962273,
+      "lon": 116.2739204,
+      "tags": {
+        "name": "自动导游讲解",
+        "shop": "kiosk"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6813634782,
+      "lat": 39.9971797,
+      "lon": 116.2724358,
+      "tags": {
+        "historic": "monument",
+        "name": "青芝岫",
+        "name:en": "Blue Iris Stone"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6813641718,
+      "lat": 39.9965396,
+      "lon": 116.2743267,
+      "tags": {
+        "historic": "monument",
+        "name": "麒麟",
+        "name:en": "Kylin",
+        "name:zh-Latn-pinyin": "Qilin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6859043265,
+      "lat": 39.9958119,
+      "lon": 116.2871094,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "北华涮肉小院(西苑店)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6859058848,
+      "lat": 39.9960677,
+      "lon": 116.2855698,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yu Xiao Mian Noodles"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6992517787,
+      "lat": 39.9963654,
+      "lon": 116.2742391,
+      "tags": {
+        "name": "仁寿殿",
+        "name:es": "Salon de benevolencia",
+        "name:zh": "仁寿殿",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7407702785,
+      "lat": 39.9858911,
+      "lon": 116.2690576,
+      "tags": {
+        "name": "昆明湖 中國北京龍脈",
+        "name:en": "Kunming Lake",
+        "name:zh": "昆明湖",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7453156156,
+      "lat": 39.9966858,
+      "lon": 116.2846854,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7453156157,
+      "lat": 39.996711,
+      "lon": 116.2840399,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "吉野家",
+        "brand:en": "Yoshinoya",
+        "brand:ja": "吉野家",
+        "brand:wikidata": "Q776272",
+        "brand:wikipedia": "ja:吉野家",
+        "brand:zh": "吉野家",
+        "cuisine": "beef_bowl",
+        "name": "吉野家",
+        "name:en": "Yoshinoya",
+        "name:ja": "吉野家",
+        "name:zh": "吉野家",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557569616,
+      "lat": 39.9965476,
+      "lon": 116.2850743,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "茶大爷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557581704,
+      "lat": 39.9970603,
+      "lon": 116.2827723,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "云海肴"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557582785,
+      "lat": 39.996798,
+      "lon": 116.2844054,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "赛百味",
+        "brand:en": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "zh:赛百味",
+        "brand:zh": "赛百味",
+        "cuisine": "sandwich",
+        "name": "赛百味",
+        "name:en": "Subway",
+        "name:zh": "赛百味",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9183226132,
+      "lat": 39.9863242,
+      "lon": 116.291674,
+      "tags": {
+        "leisure": "garden",
+        "name": "淀园花谷",
+        "name:zh": "淀园花谷",
+        "name:zh-Hans": "淀园花谷",
+        "name:zh-Hant": "澱園花穀"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9183226289,
+      "lat": 39.985534,
+      "lon": 116.2881941,
+      "tags": {
+        "name": "丹棱晴波",
+        "name:zh": "丹棱晴波",
+        "name:zh-Hans": "丹棱晴波",
+        "name:zh-Hant": "丹棱晴波",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10781912997,
+      "lat": 40.0117424,
+      "lon": 116.265108,
+      "tags": {
+        "name": "百世邻里",
+        "name:en": "Best Neighbor",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11019022098,
+      "lat": 39.9892355,
+      "lon": 116.2754707,
+      "tags": {
+        "amenity": "toilets",
+        "name": "新建宫门",
+        "opening_hours": "24/7",
+        "operator": "北京海淀生态环保有限公司",
+        "phone": "+86 10 6871 6285",
+        "ref": "10810204ht001"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11613252638,
+      "lat": 39.9977307,
+      "lon": 116.2685776,
+      "tags": {
+        "historic": "memorial",
+        "name": "万寿山昆明湖碑"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11659625247,
+      "lat": 39.997553,
+      "lon": 116.2720821,
+      "tags": {
+        "name": "邀月门",
+        "shop": "doors"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11659670458,
+      "lat": 39.9973708,
+      "lon": 116.2767645,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "稻香村"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11659721273,
+      "lat": 40.0002815,
+      "lon": 116.2748665,
+      "tags": {
+        "name": "眺远斋",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12322998493,
+      "lat": 40.0056854,
+      "lon": 116.2810937,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;regional",
+        "diet:non-halal": "yes",
+        "name": "三湘鮰头鱼"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12761676320,
+      "lat": 40.0011774,
+      "lon": 116.267962,
+      "tags": {
+        "description": "summer palace beijing",
+        "name": "Summer Palace ticket office",
+        "opening_hours": "Mo-Su 06:00-19:00",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12889807248,
+      "lat": 39.9959039,
+      "lon": 116.286942,
+      "tags": {
+        "name": "车客集市(地下)",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13252142300,
+      "lat": 40.0008174,
+      "lon": 116.2917386,
+      "tags": {
+        "historic": "yes",
+        "name": "福缘门",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13406879224,
+      "lat": 40.0090097,
+      "lon": 116.2648969,
+      "tags": {
+        "description": "因城市變遷而消失的自然村",
+        "historic": "yes",
+        "name": "正红旗",
+        "name:zh-Hant": "正紅旗",
+        "place": "neighbourhood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24827108,
+      "center": {
+        "lat": 40.0050811,
+        "lon": 116.2971533
+      },
+      "tags": {
+        "addr:country": "CN",
+        "addr:district": "海淀区",
+        "addr:housenumber": "28",
+        "addr:postcode": "100084",
+        "addr:province": "北京市",
+        "addr:street": "清华西路",
+        "alt_name": "Yuanmingyuan",
+        "dog": "no",
+        "email": "ymyyzxx@163.com",
+        "leisure": "park",
+        "name": "圆明园遗址公园",
+        "name:de": "Alter Sommerpalast",
+        "name:en": "Old Summer Palace Park",
+        "name:fr": "Ancien Palais d'Été",
+        "name:nan": "Oân-bêng-hn̂g Ûi-chí Kong-hn̂g",
+        "name:nan-Hans": "圆明园遗址公园",
+        "name:nan-Latn-pehoeji": "Oân-bêng-hn̂g Ûi-chí Kong-hn̂g",
+        "name:nan-Latn-tailo": "Uân-bîng-hn̂g Uî-tsí Kong-hn̂g",
+        "name:nl": "Oud Zomerpaleis",
+        "name:ru": "Старый летний дворец",
+        "name:zh": "圆明园遗址公园",
+        "name:zh-Hans": "圆明园遗址公园",
+        "name:zh-Hant": "園明園遺址公園",
+        "name:zh-Latn-pinyin": "Yuánmíngyuán",
+        "opening_hours": "Mo-Su 07:00-19:30",
+        "phone": "+86 10 6262 8501",
+        "smoking": "no",
+        "tourism": "attraction",
+        "website": "http://www.yuanmingyuanpark.cn/",
+        "wikidata": "Q907894",
+        "wikipedia": "en:Old Summer Palace"
+      }
+    },
+    {
+      "type": "way",
+      "id": 29228773,
+      "center": {
+        "lat": 39.9901784,
+        "lon": 116.2659253
+      },
+      "tags": {
+        "addr:district": "海淀区",
+        "addr:housenumber": "19",
+        "addr:postcode": "100091",
+        "addr:province": "北京市",
+        "addr:street": "新建宫门路",
+        "alt_name:eo": "Somera Palaco",
+        "boundary": "protected_area",
+        "dog": "no",
+        "fax": "+86 10 6288 1077",
+        "heritage": "1",
+        "heritage:operator": "whc;ncha",
+        "heritage:operator:wikidata": "Q7603002",
+        "heritage:operator:wikipedia": "zh:国家文物局",
+        "heritage:since": "1961",
+        "historic": "heritage",
+        "historic:civilization": "imperial_chinese",
+        "historic:period": "qing",
+        "leisure": "park",
+        "name": "颐和园",
+        "name:de": "Sommerpalast",
+        "name:en": "Summer Palace",
+        "name:fr": "Palais d'Été",
+        "name:hi": "ग्रीष्मकालीन महल (समर पैलस)",
+        "name:ko": "이화원",
+        "name:nl": "Zomerpaleis",
+        "name:ru": "Летний дворец",
+        "name:zh": "颐和园",
+        "name:zh-Hans": "颐和园",
+        "name:zh-Hant": "頤和園",
+        "name:zh-Latn-pinyin": "Yíhéyuán",
+        "ncha:inscription_date": "1961-03-04",
+        "ncha:name": "颐和园",
+        "ncha:type": "古建筑",
+        "opening_hours": "Mo-Su 06:30-18:00",
+        "operator": "北京市颐和园管理处",
+        "phone": "+86 10 6288 1144",
+        "protected_area": "historic_district",
+        "protection_title": "世界遗产;全国重点文物保护单位;国家重点公园",
+        "ref:heritage:CN": "1-0122-3-075",
+        "ref:whc": "880",
+        "smoking": "no",
+        "start_date": "1873",
+        "tourism": "attraction",
+        "tourism:level:CN": "AAAAA",
+        "website": "https://www.summerpalace-china.com/English/index.htm",
+        "whc:criteria": "(i),(ii),(iii)",
+        "whc:inscription_date": "1998",
+        "whc:name": "北京皇家园林-颐和园",
+        "wikidata": "Q4132",
+        "wikipedia": "en:Summer Palace"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977740,
+      "center": {
+        "lat": 39.9968044,
+        "lon": 116.2649698
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "听鹂馆",
+        "name:en": "The hall for listening to orioles"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977742,
+      "center": {
+        "lat": 39.9989378,
+        "lon": 116.2690285
+      },
+      "tags": {
+        "building": "yes",
+        "name": "善现寺"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977746,
+      "center": {
+        "lat": 39.9969841,
+        "lon": 116.2677378
+      },
+      "tags": {
+        "building": "yes",
+        "name": "芳辉殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977747,
+      "center": {
+        "lat": 39.9971967,
+        "lon": 116.2677948
+      },
+      "tags": {
+        "building": "yes",
+        "name": "耳殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977752,
+      "center": {
+        "lat": 39.9977121,
+        "lon": 116.2672075
+      },
+      "tags": {
+        "building": "yes",
+        "name": "铜亭",
+        "name:de": "Pavillon der Kostbaren Wolken",
+        "name:en": "Pavilion of Precious Clouds",
+        "name:nl": "Paviljoen van de Edele Wolken",
+        "name:zh": "宝云阁"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977753,
+      "center": {
+        "lat": 39.9979607,
+        "lon": 116.2685272
+      },
+      "tags": {
+        "building": "yes",
+        "name": "转轮藏殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977775,
+      "center": {
+        "lat": 39.990179,
+        "lon": 116.2702419
+      },
+      "tags": {
+        "building": "yes",
+        "name": "龙王庙",
+        "name:zh": "龙王庙"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977786,
+      "center": {
+        "lat": 39.9900799,
+        "lon": 116.2702783
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Guangrun Lingyu Ci",
+        "name:en": "Temple of Timely Rains and Extensive Moisture"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977787,
+      "center": {
+        "lat": 39.9899463,
+        "lon": 116.2698651
+      },
+      "tags": {
+        "building": "yes",
+        "name": "鉴远堂",
+        "name:zh": "鉴远堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977788,
+      "center": {
+        "lat": 39.9890539,
+        "lon": 116.2726583
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "廓如亭",
+        "name:en": "Grand Pavilion",
+        "name:zh": "廓如亭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977790,
+      "center": {
+        "lat": 39.9990021,
+        "lon": 116.268336
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "香岩宗印之阁",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977792,
+      "center": {
+        "lat": 39.9972373,
+        "lon": 116.2682992
+      },
+      "tags": {
+        "building": "yes",
+        "name": "耳殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977804,
+      "center": {
+        "lat": 39.9987352,
+        "lon": 116.2629012
+      },
+      "tags": {
+        "building": "boathouse",
+        "name": "船坞",
+        "name:zh": "船坞"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977820,
+      "center": {
+        "lat": 39.9971848,
+        "lon": 116.2680453
+      },
+      "tags": {
+        "building": "yes",
+        "name": "排云殿",
+        "name:de": "Wolkenzerstreuende Halle",
+        "name:en": "Hall of Dispelling Clouds",
+        "name:fr": "Palais des nuages ordonnés",
+        "name:nl": "Hal van de wegdrijvende wolken",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977839,
+      "center": {
+        "lat": 39.9973974,
+        "lon": 116.2649201
+      },
+      "tags": {
+        "building": "yes",
+        "name": "画中游"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977844,
+      "center": {
+        "lat": 39.996871,
+        "lon": 116.2680842
+      },
+      "tags": {
+        "building": "yes",
+        "name": "二宫门"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977845,
+      "center": {
+        "lat": 39.9965221,
+        "lon": 116.2681227
+      },
+      "tags": {
+        "building": "yes",
+        "name": "排云门"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977846,
+      "center": {
+        "lat": 39.996268,
+        "lon": 116.2681549
+      },
+      "tags": {
+        "historic": "memorial",
+        "name": "云辉玉宇牌坊"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977851,
+      "center": {
+        "lat": 39.9978268,
+        "lon": 116.2679821
+      },
+      "tags": {
+        "building": "yes",
+        "name": "佛香阁",
+        "name:de": "Pavillon des Buddhistischen Wohlgeruchs",
+        "name:en": "Fo Xian Ge (Tower of Buddhist Incense)",
+        "name:nl": "Toren van Boeddhistische Wierook",
+        "name:zh": "佛香阁"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977852,
+      "center": {
+        "lat": 39.9982365,
+        "lon": 116.2679778
+      },
+      "tags": {
+        "building": "yes",
+        "name": "智慧海",
+        "name:en": "Sea of Wisdom",
+        "name:fr": "Temple de la Mer de la parfaite sagesse",
+        "name:nl": "Hal van de Zee der Wijsheid"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977853,
+      "center": {
+        "lat": 39.9974703,
+        "lon": 116.2680465
+      },
+      "tags": {
+        "building": "yes",
+        "name": "德晖殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977861,
+      "center": {
+        "lat": 40.001042,
+        "lon": 116.2680076
+      },
+      "tags": {
+        "building": "yes",
+        "name": "北宫门",
+        "name:en": "North Gate",
+        "name:zh": "北宫门"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977862,
+      "center": {
+        "lat": 39.9954065,
+        "lon": 116.2733679
+      },
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "知春亭",
+        "name:en": "Heralding Spring Pavilion",
+        "name:zh": "知春亭",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977871,
+      "center": {
+        "lat": 39.9970433,
+        "lon": 116.2683962
+      },
+      "tags": {
+        "building": "yes",
+        "name": "紫霄殿"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977872,
+      "center": {
+        "lat": 39.9970793,
+        "lon": 116.2724487
+      },
+      "tags": {
+        "building": "yes",
+        "name": "水木自亲"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977880,
+      "center": {
+        "lat": 39.9978038,
+        "lon": 116.2693984
+      },
+      "tags": {
+        "building": "yes",
+        "name": "写秋轩"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977888,
+      "center": {
+        "lat": 39.9964584,
+        "lon": 116.2735122
+      },
+      "tags": {
+        "building": "yes",
+        "name": "霞芬室"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977889,
+      "center": {
+        "lat": 39.9964265,
+        "lon": 116.2731174
+      },
+      "tags": {
+        "building": "yes",
+        "name": "藕香榭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977891,
+      "center": {
+        "lat": 39.9969971,
+        "lon": 116.273043
+      },
+      "tags": {
+        "building": "yes",
+        "name": "近西轩"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977893,
+      "center": {
+        "lat": 39.9974214,
+        "lon": 116.2724042
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐寿堂",
+        "name:zh-Hant": "樂壽堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977895,
+      "center": {
+        "lat": 39.9976051,
+        "lon": 116.2729662
+      },
+      "tags": {
+        "building": "yes",
+        "name": "永寿斋"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977896,
+      "center": {
+        "lat": 39.9972834,
+        "lon": 116.2727057
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "舒华布实"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977900,
+      "center": {
+        "lat": 40.000996,
+        "lon": 116.2691088
+      },
+      "tags": {
+        "building": "yes",
+        "name": "船坞",
+        "name:zh": "船坞"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977902,
+      "center": {
+        "lat": 39.9986483,
+        "lon": 116.2735776
+      },
+      "tags": {
+        "building": "yes",
+        "name": "景福阁",
+        "name:en": "Belvédère du Grand bonheur (Jingfu)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977911,
+      "center": {
+        "lat": 39.9965112,
+        "lon": 116.2739955
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes",
+        "name": "仁寿殿",
+        "name:de": "Halle des Wohlwollens und der Langlebigkeit",
+        "name:en": "Hall of Benevolence and Longevity",
+        "name:fr": "Salle de la Bienveillance et de la Longévité (Ren Shou Dian)",
+        "name:nl": "Hal van de Welwillendheid en het Lange Leven"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977921,
+      "center": {
+        "lat": 39.9989508,
+        "lon": 116.274095
+      },
+      "tags": {
+        "building": "yes",
+        "name": "益寿堂",
+        "name:en": "Hall of Increasing Longevity"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43978817,
+      "center": {
+        "lat": 39.9984843,
+        "lon": 116.2634184
+      },
+      "tags": {
+        "alt_name": "宿云檐",
+        "building": "yes",
+        "historic": "yes",
+        "name": "宿云檐城关",
+        "name:en": "Suyunyan Chrngguan",
+        "name:zh": "宿云檐城关"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43978819,
+      "center": {
+        "lat": 39.9972205,
+        "lon": 116.2737582
+      },
+      "tags": {
+        "building": "yes",
+        "name": "大戏台",
+        "name:en": "Grand Stage"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43978820,
+      "center": {
+        "lat": 39.9975076,
+        "lon": 116.2737346
+      },
+      "tags": {
+        "building": "yes",
+        "name": "德和园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121703416,
+      "center": {
+        "lat": 39.998454,
+        "lon": 116.2846286
+      },
+      "tags": {
+        "amenity": "bus_station",
+        "building": "yes",
+        "bus": "yes",
+        "layer": "1",
+        "name": "西苑枢纽站",
+        "name:en": "Xiyuan",
+        "name:zh": "西苑枢纽站",
+        "public_transport": "station"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121703418,
+      "center": {
+        "lat": 40.0113335,
+        "lon": 116.2639375
+      },
+      "tags": {
+        "building": "train_station",
+        "building:levels": "2",
+        "layer": "1",
+        "name": "安河桥北站"
+      }
+    },
+    {
+      "type": "way",
+      "id": 121777669,
+      "center": {
+        "lat": 40.0012342,
+        "lon": 116.2713534
+      },
+      "tags": {
+        "building": "train_station",
+        "layer": "-4",
+        "level": "-1",
+        "location": "underground",
+        "name": "北宫门站"
+      }
+    },
+    {
+      "type": "way",
+      "id": 128883577,
+      "center": {
+        "lat": 39.9984791,
+        "lon": 116.2895668
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "一亩园",
+        "name:zh": "一亩园",
+        "name:zh-Hans": "一亩园",
+        "name:zh-Hant": "一畝園"
+      }
+    },
+    {
+      "type": "way",
+      "id": 169488461,
+      "center": {
+        "lat": 39.9915541,
+        "lon": 116.2913647
+      },
+      "tags": {
+        "amenity": "fuel",
+        "brand": "中国石化",
+        "brand:en": "Sinopec",
+        "brand:wikidata": "Q831445",
+        "brand:wikipedia": "en:Sinopec",
+        "brand:zh": "中国石化",
+        "building": "yes",
+        "layer": "1",
+        "name": "中国石化",
+        "name:en": "Sinopec",
+        "name:zh": "中国石化"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174929787,
+      "center": {
+        "lat": 39.9963299,
+        "lon": 116.2841557
+      },
+      "tags": {
+        "building": "yes",
+        "name": "西苑商城",
+        "shop": "mall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 181978579,
+      "center": {
+        "lat": 39.9973843,
+        "lon": 116.2810729
+      },
+      "tags": {
+        "amenity": "toilets",
+        "building": "yes",
+        "fee": "no",
+        "name": "同庆街",
+        "opening_hours": "Mo-Su 05:00-23:00; Apr-Oct Mo-Su 05:00-24:00",
+        "operator": "海淀区环境卫生服务中心四队",
+        "phone": "68716285;62555813",
+        "ref": "108102041o169",
+        "ref:manager": "1037",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 182050078,
+      "center": {
+        "lat": 39.9903489,
+        "lon": 116.2756796
+      },
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "name": "新建宫门场站",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "way",
+      "id": 189801200,
+      "center": {
+        "lat": 39.9843208,
+        "lon": 116.2895226
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "海淀公园",
+        "name:en": "Haidian Park",
+        "wikidata": "Q19853030",
+        "wikimedia_commons": "Category:Haidian Park",
+        "wikipedia": "zh:海淀公园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 341357972,
+      "center": {
+        "lat": 39.9991536,
+        "lon": 116.2758139
+      },
+      "tags": {
+        "garden:style": "chinese",
+        "leisure": "garden",
+        "name": "谐趣园",
+        "name:en": "Garden of Harmonious Interests",
+        "name:zh": "谐趣园",
+        "name:zh-Latn-pinyin": "Xié qù yuán",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409768519,
+      "center": {
+        "lat": 39.9881249,
+        "lon": 116.2907498
+      },
+      "tags": {
+        "building": "commercial",
+        "name": "中关村国家自主创新示范区展示中心",
+        "name:zh": "中关村国家自主创新示范区展示中心",
+        "name:zh-Hans": "中关村国家自主创新示范区展示中心",
+        "name:zh-Hant": "中關村國家自主創新示範區展示中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412745920,
+      "center": {
+        "lat": 39.999438,
+        "lon": 116.2757538
+      },
+      "tags": {
+        "building": "yes",
+        "name": "涵远堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412745921,
+      "center": {
+        "lat": 39.9994344,
+        "lon": 116.2760937
+      },
+      "tags": {
+        "building": "yes",
+        "name": "兰亭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412745922,
+      "center": {
+        "lat": 39.9989206,
+        "lon": 116.274491
+      },
+      "tags": {
+        "building": "yes",
+        "name": "乐农轩"
+      }
+    },
+    {
+      "type": "way",
+      "id": 412745923,
+      "center": {
+        "lat": 39.9998341,
+        "lon": 116.2757102
+      },
+      "tags": {
+        "building": "yes",
+        "name": "霁清轩",
+        "name:en": "Chamber of Clearness"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532906683,
+      "center": {
+        "lat": 39.9881928,
+        "lon": 116.2872334
+      },
+      "tags": {
+        "building": "yes",
+        "name": "中关村会议中心",
+        "name:zh": "中关村会议中心",
+        "name:zh-Hans": "中关村会议中心",
+        "name:zh-Hant": "中關村會議中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 532906688,
+      "center": {
+        "lat": 39.993911,
+        "lon": 116.2876646
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "中国中医科学院西苑医院",
+        "name:zh": "中国中医科学院西苑医院",
+        "name:zh-Hans": "中国中医科学院西苑医院",
+        "name:zh-Hant": "中國中醫科學院西苑醫院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 579104635,
+      "center": {
+        "lat": 39.996597,
+        "lon": 116.273262
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "玉澜堂",
+        "name:de": "Halle der Jadewellen",
+        "name:en": "Hall of Jade Billows",
+        "name:nl": "Hal van Jade Rimpelingen"
+      }
+    },
+    {
+      "type": "way",
+      "id": 579104636,
+      "center": {
+        "lat": 39.9971438,
+        "lon": 116.2731606
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "宜芸馆",
+        "name:en": "Yiyun Hall"
+      }
+    },
+    {
+      "type": "way",
+      "id": 579104637,
+      "center": {
+        "lat": 39.9952193,
+        "lon": 116.2739506
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "文昌阁",
+        "name:en": "Wenchang Tower",
+        "tourism": "attraction"
+      }
+    },
+    {
+      "type": "way",
+      "id": 597047392,
+      "center": {
+        "lat": 39.9980652,
+        "lon": 116.2759578
+      },
+      "tags": {
+        "internet_access": "yes",
+        "name": "颐和安缦",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 627822201,
+      "center": {
+        "lat": 39.990515,
+        "lon": 116.2700843
+      },
+      "tags": {
+        "building": "yes",
+        "name": "涵虚堂"
+      }
+    },
+    {
+      "type": "way",
+      "id": 727038441,
+      "center": {
+        "lat": 39.9983681,
+        "lon": 116.2703282
+      },
+      "tags": {
+        "building": "yes",
+        "name": "千峰彩翠"
+      }
+    },
+    {
+      "type": "way",
+      "id": 727040825,
+      "center": {
+        "lat": 39.9981954,
+        "lon": 116.2748075
+      },
+      "tags": {
+        "building": "yes",
+        "historic": "yes",
+        "name": "紫气东来城关",
+        "name:en": "Purple Cloud Gate Tower"
+      }
+    },
+    {
+      "type": "way",
+      "id": 727042890,
+      "center": {
+        "lat": 39.9967365,
+        "lon": 116.2636803
+      },
+      "tags": {
+        "alt_name": "石舫",
+        "historic": "monument",
+        "name": "清晏舫",
+        "name:de": "Marmorschiff",
+        "name:en": "Shi Fang (Marble Boat)",
+        "name:fr": "Bateau de Marbre",
+        "name:nl": "Marmeren boot",
+        "name:th": "เรือหินอ่อน",
+        "name:zh": "清晏舫",
+        "tourism": "attraction",
+        "wikidata": "Q2636083",
+        "wikipedia": "en:Marble Boat"
+      }
+    },
+    {
+      "type": "way",
+      "id": 732469925,
+      "center": {
+        "lat": 39.9960225,
+        "lon": 116.2862552
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "亮丽园",
+        "name:en": "Bright Garden"
+      }
+    },
+    {
+      "type": "way",
+      "id": 890600582,
+      "center": {
+        "lat": 39.9974728,
+        "lon": 116.2863093
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "西苑",
+        "name:en": "Xiyuan",
+        "name:ru": "Сиюань",
+        "name:zh": "西苑",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 943916990,
+      "center": {
+        "lat": 40.0019308,
+        "lon": 116.2610609
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "功德寺公园（东园）"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988639270,
+      "center": {
+        "lat": 40.0085942,
+        "lon": 116.2659139
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "清河之源滨水公园"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993979370,
+      "center": {
+        "lat": 39.9850737,
+        "lon": 116.291653
+      },
+      "tags": {
+        "access": "customers",
+        "leisure": "playground",
+        "name": "儿童乐园",
+        "name:zh": "儿童乐园",
+        "name:zh-Hans": "儿童乐园",
+        "name:zh-Hant": "兒童樂園"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993979372,
+      "center": {
+        "lat": 39.9871672,
+        "lon": 116.2906609
+      },
+      "tags": {
+        "building": "office",
+        "name": "海淀区人工影响天气办公室",
+        "name:zh": "海淀区人工影响天气办公室",
+        "name:zh-Hans": "海淀区人工影响天气办公室",
+        "name:zh-Hant": "海澱區人工影響天氣辦公室"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993979374,
+      "center": {
+        "lat": 39.9852908,
+        "lon": 116.2899831
+      },
+      "tags": {
+        "building": "yes",
+        "name": "未来空间",
+        "name:zh": "未来空间",
+        "name:zh-Hans": "未来空间",
+        "name:zh-Hant": "未來空間"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1031890432,
+      "center": {
+        "lat": 39.999055,
+        "lon": 116.2909157
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "达园",
+        "name:zh": "达园",
+        "name:zh-Hans": "达园",
+        "name:zh-Hant": "達園"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1034518720,
+      "center": {
+        "lat": 39.9854915,
+        "lon": 116.2731127
+      },
+      "tags": {
+        "leisure": "park",
+        "name": "六郎庄公园（一期）"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037999813,
+      "center": {
+        "lat": 39.9906457,
+        "lon": 116.2876405
+      },
+      "tags": {
+        "building": "yes",
+        "name": "北京信息技术研究所",
+        "name:zh": "北京信息技术研究所",
+        "name:zh-Hans": "北京信息技术研究所",
+        "name:zh-Hant": "北京資訊技術研究所"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1122569396,
+      "center": {
+        "lat": 39.994068,
+        "lon": 116.2917803
+      },
+      "tags": {
+        "building": "yes",
+        "name": "绣花楼",
+        "name:en": "Xiuhua Building",
+        "name:zh": "绣花楼",
+        "name:zh-Hans": "绣花楼",
+        "name:zh-Hant": "繡花樓",
+        "operator": "北京大学",
+        "smoking": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1132481741,
+      "center": {
+        "lat": 39.9906465,
+        "lon": 116.2908857
+      },
+      "tags": {
+        "alt_name": "中关村论坛永久会址",
+        "amenity": "conference_centre",
+        "building": "yes",
+        "layer": "1",
+        "name": "中关村国际创新中心"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249466266,
+      "center": {
+        "lat": 39.9979036,
+        "lon": 116.2682819
+      },
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "敷华亭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249466267,
+      "center": {
+        "lat": 39.9978895,
+        "lon": 116.2686691
+      },
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "转轮亭"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1249466268,
+      "center": {
+        "lat": 39.9970402,
+        "lon": 116.2733824
+      },
+      "tags": {
+        "building": "yes",
+        "name": "道存斋"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1322286005,
+      "center": {
+        "lat": 40.0106133,
+        "lon": 116.2736989
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "北医三院中央党校院区",
+        "ref": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1373237227,
+      "center": {
+        "lat": 40.0006505,
+        "lon": 116.2688175
+      },
+      "tags": {
+        "building": "boathouse",
+        "layer": "1",
+        "name": "游船码头"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1395519275,
+      "center": {
+        "lat": 39.9968435,
+        "lon": 116.2885834
+      },
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "土地小庙"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1409207394,
+      "center": {
+        "lat": 39.9993718,
+        "lon": 116.2752399
+      },
+      "tags": {
+        "building": "yes",
+        "name": "瞩新楼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1409207395,
+      "center": {
+        "lat": 39.9991232,
+        "lon": 116.2753325
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "澄爽斋"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1409207396,
+      "center": {
+        "lat": 39.9993666,
+        "lon": 116.2764189
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "知春堂"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 12248418,
+      "center": {
+        "lat": 39.9812422,
+        "lon": 116.2837571
+      },
+      "tags": {
+        "alt_name": "万柳高尔夫",
+        "leisure": "golf_course",
+        "name": "万柳高尔夫球场",
+        "sport": "golf",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-18T05:53:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 1922053560,
+      "lat": 40.0015905,
+      "lon": 116.2714995,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "operator": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396425,
+      "lat": 39.9969845,
+      "lon": 116.2839487,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "麦当劳",
+        "brand:en": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "zh:麦当劳",
+        "brand:zh": "麦当劳",
+        "brand:zh-Hans": "麦当劳",
+        "cuisine": "burger",
+        "name": "麦当劳",
+        "name:en": "McDonald's",
+        "name:zh": "麦当劳",
+        "name:zh-Hans": "麦当劳",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396524,
+      "lat": 39.9970841,
+      "lon": 116.2835556,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "必胜客",
+        "brand:en": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "zh:必胜客",
+        "brand:zh": "必胜客",
+        "cuisine": "pizza",
+        "name": "必胜客",
+        "name:en": "Pizza Hut",
+        "name:zh": "必胜客"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5002396526,
+      "lat": 39.9971274,
+      "lon": 116.2832798,
+      "tags": {
+        "amenity": "cafe",
+        "brand": "星巴克",
+        "brand:en": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "zh:星巴克",
+        "brand:zh": "星巴克",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "星巴克",
+        "name:en": "Starbucks",
+        "name:zh": "星巴克",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6420561939,
+      "lat": 39.9968835,
+      "lon": 116.2690743,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "餐厅"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6859043265,
+      "lat": 39.9958119,
+      "lon": 116.2871094,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "北华涮肉小院(西苑店)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6859058848,
+      "lat": 39.9960677,
+      "lon": 116.2855698,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yu Xiao Mian Noodles"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7453156156,
+      "lat": 39.9966858,
+      "lon": 116.2846854,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "肯德基",
+        "brand:en": "KFC",
+        "brand:wikidata": "Q524757",
+        "brand:wikipedia": "zh:肯德基",
+        "brand:zh": "肯德基",
+        "cuisine": "chicken",
+        "name": "肯德基",
+        "name:en": "KFC",
+        "name:zh": "肯德基",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7453156157,
+      "lat": 39.996711,
+      "lon": 116.2840399,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "吉野家",
+        "brand:en": "Yoshinoya",
+        "brand:ja": "吉野家",
+        "brand:wikidata": "Q776272",
+        "brand:wikipedia": "ja:吉野家",
+        "brand:zh": "吉野家",
+        "cuisine": "beef_bowl",
+        "name": "吉野家",
+        "name:en": "Yoshinoya",
+        "name:ja": "吉野家",
+        "name:zh": "吉野家",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557569616,
+      "lat": 39.9965476,
+      "lon": 116.2850743,
+      "tags": {
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "name": "茶大爷"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557581704,
+      "lat": 39.9970603,
+      "lon": 116.2827723,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "云海肴"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7557582785,
+      "lat": 39.996798,
+      "lon": 116.2844054,
+      "tags": {
+        "amenity": "fast_food",
+        "brand": "赛百味",
+        "brand:en": "Subway",
+        "brand:wikidata": "Q244457",
+        "brand:wikipedia": "zh:赛百味",
+        "brand:zh": "赛百味",
+        "cuisine": "sandwich",
+        "name": "赛百味",
+        "name:en": "Subway",
+        "name:zh": "赛百味",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11659670458,
+      "lat": 39.9973708,
+      "lon": 116.2767645,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "稻香村"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12322998493,
+      "lat": 40.0056854,
+      "lon": 116.2810937,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;regional",
+        "diet:non-halal": "yes",
+        "name": "三湘鮰头鱼"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43977740,
+      "center": {
+        "lat": 39.9968044,
+        "lon": 116.2649698
+      },
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "听鹂馆",
+        "name:en": "The hall for listening to orioles"
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+from fastapi import APIRouter, Depends, Header, HTTPException
+from pydantic import BaseModel, Field
+
+from app.api.deps import extract_token, get_current_user
+from app.repositories.data_loader import DatasetRepository, get_repository
+from app.services.auth_service import AuthService
+
+router = APIRouter()
+
+
+class LoginRequest(BaseModel):
+    username: str
+    password: str
+
+
+class RegisterRequest(BaseModel):
+    username: str
+    password: str
+    display_name: str | None = None
+
+
+class FavoriteDestinationRequest(BaseModel):
+    source_id: str
+
+
+class FavoriteRouteRequest(BaseModel):
+    scene_name: str
+    strategy: str
+    transport_mode: str
+    path_codes: list[str] = Field(default_factory=list)
+    path_names: list[str] = Field(default_factory=list)
+    total_distance_m: float = 0.0
+    estimated_minutes: float = 0.0
+    explanation: str = ""
+
+
+@router.post("/register")
+def register(payload: RegisterRequest, repository: DatasetRepository = Depends(get_repository)) -> dict:
+    try:
+        user, token = AuthService(repository).register(payload.username, payload.password, payload.display_name)
+    except ValueError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
+    return {"user": user, "token": token}
+
+
+@router.post("/login")
+def login(payload: LoginRequest, repository: DatasetRepository = Depends(get_repository)) -> dict:
+    result = AuthService(repository).login(payload.username, payload.password)
+    if not result:
+        raise HTTPException(status_code=401, detail="用户名或密码错误")
+    user, token = result
+    return {"user": user, "token": token}
+
+
+@router.get("/me")
+def me(current_user: dict = Depends(get_current_user)) -> dict:
+    return {"user": current_user}
+
+
+@router.post("/logout")
+def logout(
+    authorization: str | None = Header(default=None),
+    repository: DatasetRepository = Depends(get_repository),
+) -> dict:
+    AuthService(repository).logout(extract_token(authorization))
+    return {"ok": True}
+
+
+@router.get("/demo-accounts")
+def demo_accounts(repository: DatasetRepository = Depends(get_repository)) -> list[dict]:
+    return AuthService(repository).demo_accounts()
+
+
+@router.get("/favorites")
+def favorites(current_user: dict = Depends(get_current_user)) -> dict:
+    return {
+        "favorite_destination_ids": current_user.get("favorite_destination_ids", []),
+        "favorite_route_snapshots": current_user.get("favorite_route_snapshots", []),
+    }
+
+
+@router.post("/favorites/destinations")
+def toggle_destination_favorite(
+    payload: FavoriteDestinationRequest,
+    authorization: str | None = Header(default=None),
+    repository: DatasetRepository = Depends(get_repository),
+) -> dict:
+    token = extract_token(authorization)
+    if not token:
+        raise HTTPException(status_code=401, detail="请先登录")
+    try:
+        return AuthService(repository).toggle_destination_favorite(token, payload.source_id)
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+
+
+@router.post("/favorites/routes")
+def save_route_favorite(
+    payload: FavoriteRouteRequest,
+    authorization: str | None = Header(default=None),
+    repository: DatasetRepository = Depends(get_repository),
+) -> dict:
+    token = extract_token(authorization)
+    if not token:
+        raise HTTPException(status_code=401, detail="请先登录")
+    try:
+        user = AuthService(repository).save_route_favorite(token, payload.model_dump())
+    except ValueError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    return {"user": user}

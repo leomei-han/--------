@@ -1,0 +1,17 @@
+[
+  {
+    "name": "OpenStreetMap Overpass",
+    "file": "datasets/raw/*.json",
+    "content": "北京目的地与样板场景真实点位"
+  },
+  {
+    "name": "Trip.com / TripAdvisor / 马蜂窝",
+    "file": "datasets/prod/featured_destinations.json, datasets/prod/foods.json",
+    "content": "四城精选目的地与美食的评分和热度来源"
+  },
+  {
+    "name": "Local media pack",
+    "file": "frontend/public/media",
+    "content": "项目内置封面图包，脱离外网也可稳定显示"
+  }
+]

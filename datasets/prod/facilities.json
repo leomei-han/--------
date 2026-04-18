@@ -1,0 +1,418 @@
+[
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_01",
+    "name": "影桥酒店",
+    "facility_type": "hotel",
+    "latitude": 39.9656232,
+    "longitude": 116.3564861
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_02",
+    "name": "金狮麟酒店",
+    "facility_type": "restaurant",
+    "latitude": 39.9659344,
+    "longitude": 116.3567103
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_03",
+    "name": "中国工商银行",
+    "facility_type": "bank",
+    "latitude": 39.9689417,
+    "longitude": 116.363373
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_04",
+    "name": "海友良品",
+    "facility_type": "hotel",
+    "latitude": 39.9669283,
+    "longitude": 116.3591721
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_05",
+    "name": "游泳馆",
+    "facility_type": "yes",
+    "latitude": 39.9604626,
+    "longitude": 116.3545368
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_06",
+    "name": "招生就业处",
+    "facility_type": "yes",
+    "latitude": 39.9633868,
+    "longitude": 116.3503857
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_07",
+    "name": "鱼味小馆",
+    "facility_type": "restaurant",
+    "latitude": 39.9637034,
+    "longitude": 116.3504776
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_08",
+    "name": "陈垣校长像",
+    "facility_type": "artwork",
+    "latitude": 39.9583842,
+    "longitude": 116.3611375
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_09",
+    "name": "Isaac Newton",
+    "facility_type": "artwork",
+    "latitude": 39.9621793,
+    "longitude": 116.3510936
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_10",
+    "name": "白鹿江西餐厅",
+    "facility_type": "restaurant",
+    "latitude": 39.9636972,
+    "longitude": 116.359826
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_11",
+    "name": "乐育超市",
+    "facility_type": "supermarket",
+    "latitude": 39.9608618,
+    "longitude": 116.3615349
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_12",
+    "name": "学生第六食堂(留学生食堂)",
+    "facility_type": "restaurant",
+    "latitude": 39.9598828,
+    "longitude": 116.3632713
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_13",
+    "name": "八喜日本料理",
+    "facility_type": "restaurant",
+    "latitude": 39.962164,
+    "longitude": 116.3639603
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_14",
+    "name": "爱德堡西餐咖啡吧",
+    "facility_type": "restaurant",
+    "latitude": 39.962026,
+    "longitude": 116.3639774
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_15",
+    "name": "楼上楼茶餐厅",
+    "facility_type": "restaurant",
+    "latitude": 39.961991,
+    "longitude": 116.352893
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_16",
+    "name": "正宗西安羊肉泡馍",
+    "facility_type": "restaurant",
+    "latitude": 39.9659902,
+    "longitude": 116.3550325
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_17",
+    "name": "潮汕渔村",
+    "facility_type": "restaurant",
+    "latitude": 39.9660301,
+    "longitude": 116.355241
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_18",
+    "name": "LAKER'S（北太平庄店）",
+    "facility_type": "restaurant",
+    "latitude": 39.9656946,
+    "longitude": 116.3550117
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_19",
+    "name": "福口居京味涮肉",
+    "facility_type": "restaurant",
+    "latitude": 39.9659585,
+    "longitude": 116.3572677
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_20",
+    "name": "汤本味赣苑",
+    "facility_type": "restaurant",
+    "latitude": 39.9656376,
+    "longitude": 116.3549357
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_21",
+    "name": "便利蜂",
+    "facility_type": "convenience",
+    "latitude": 39.9633892,
+    "longitude": 116.349096
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_22",
+    "name": "中国移动",
+    "facility_type": "telecommunication",
+    "latitude": 39.9670889,
+    "longitude": 116.3690874
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_23",
+    "name": "中国邮政储蓄银行",
+    "facility_type": "bank",
+    "latitude": 39.9670872,
+    "longitude": 116.3693281
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_24",
+    "name": "北影",
+    "facility_type": "toilets",
+    "latitude": 39.9667746,
+    "longitude": 116.3545808
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_25",
+    "name": "京东物流",
+    "facility_type": "post_office",
+    "latitude": 39.9635481,
+    "longitude": 116.3522194
+  },
+  {
+    "scene_name": "BUPT_Main_Campus",
+    "code": "BUPT_F_26",
+    "name": "档案馆",
+    "facility_type": "library",
+    "latitude": 39.9617412,
+    "longitude": 116.3518934
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_01",
+    "name": "山高水长",
+    "facility_type": "attraction",
+    "latitude": 40.0033126,
+    "longitude": 116.2863976
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_02",
+    "name": "万方安和",
+    "facility_type": "attraction",
+    "latitude": 40.0055691,
+    "longitude": 116.2866903
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_03",
+    "name": "武陵春色",
+    "facility_type": "attraction",
+    "latitude": 40.0063183,
+    "longitude": 116.287379
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_04",
+    "name": "日光琳宇",
+    "facility_type": "attraction",
+    "latitude": 40.0085098,
+    "longitude": 116.285565
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_05",
+    "name": "鸿慈永祜",
+    "facility_type": "attraction",
+    "latitude": 40.0087454,
+    "longitude": 116.2836944
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_06",
+    "name": "月地云居",
+    "facility_type": "attraction",
+    "latitude": 40.006055,
+    "longitude": 116.2841011
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_07",
+    "name": "濂溪乐处",
+    "facility_type": "attraction",
+    "latitude": 40.0094419,
+    "longitude": 116.2876468
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_08",
+    "name": "水流云在",
+    "facility_type": "attraction",
+    "latitude": 40.0091076,
+    "longitude": 116.2901938
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_09",
+    "name": "汇芳书院",
+    "facility_type": "attraction",
+    "latitude": 40.0102567,
+    "longitude": 116.2856421
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_10",
+    "name": "多稼如云",
+    "facility_type": "attraction",
+    "latitude": 40.0108003,
+    "longitude": 116.2894557
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_11",
+    "name": "北远山村",
+    "facility_type": "attraction",
+    "latitude": 40.0115362,
+    "longitude": 116.2883602
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_12",
+    "name": "德和园",
+    "facility_type": "attraction",
+    "latitude": 39.9970301,
+    "longitude": 116.2738065
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_13",
+    "name": "淡泊宁静",
+    "facility_type": "attraction",
+    "latitude": 40.0077862,
+    "longitude": 116.2903235
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_14",
+    "name": "Overall Plan",
+    "facility_type": "information",
+    "latitude": 40.0082952,
+    "longitude": 116.2853265
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_15",
+    "name": "文昌阁",
+    "facility_type": "attraction",
+    "latitude": 39.99541,
+    "longitude": 116.2744657
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_16",
+    "name": "映水兰香",
+    "facility_type": "attraction",
+    "latitude": 40.0071043,
+    "longitude": 116.2892176
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_17",
+    "name": "茹古涵今",
+    "facility_type": "attraction",
+    "latitude": 40.0032288,
+    "longitude": 116.2884934
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_18",
+    "name": "佛香阁",
+    "facility_type": "attraction",
+    "latitude": 39.9980562,
+    "longitude": 116.2679373
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_19",
+    "name": "餐厅",
+    "facility_type": "restaurant",
+    "latitude": 39.9968835,
+    "longitude": 116.2690743
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_20",
+    "name": "自动导游讲解",
+    "facility_type": "kiosk",
+    "latitude": 39.9962273,
+    "longitude": 116.2739204
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_21",
+    "name": "青芝岫",
+    "facility_type": "monument",
+    "latitude": 39.9971797,
+    "longitude": 116.2724358
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_22",
+    "name": "麒麟",
+    "facility_type": "monument",
+    "latitude": 39.9965396,
+    "longitude": 116.2743267
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_23",
+    "name": "北华涮肉小院(西苑店)",
+    "facility_type": "restaurant",
+    "latitude": 39.9958119,
+    "longitude": 116.2871094
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_24",
+    "name": "Yu Xiao Mian Noodles",
+    "facility_type": "restaurant",
+    "latitude": 39.9960677,
+    "longitude": 116.2855698
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_25",
+    "name": "仁寿殿",
+    "facility_type": "attraction",
+    "latitude": 39.9963654,
+    "longitude": 116.2742391
+  },
+  {
+    "scene_name": "Summer_Palace",
+    "code": "SUMMER_F_26",
+    "name": "昆明湖 中國北京龍脈",
+    "facility_type": "attraction",
+    "latitude": 39.9858911,
+    "longitude": 116.2690576
+  }
+]

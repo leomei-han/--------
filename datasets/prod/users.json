@@ -1,0 +1,184 @@
+[
+  {
+    "id": 1,
+    "username": "demo_user_1",
+    "display_name": "演示用户1",
+    "interests": "campus,architecture,coffee",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T17:13:46",
+    "password_hash": "demo-salt-1$95a11e34317881bfe28572865c95656da24278579934d252cd0ccc2e55d625dc",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 2,
+    "username": "demo_user_2",
+    "display_name": "演示用户2",
+    "interests": "park,walking,food",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-2$94ac3d09d43773bf827832485b82b51596328dc7112117fe874eff8ec1f37ad9",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 3,
+    "username": "demo_user_3",
+    "display_name": "演示用户3",
+    "interests": "garden,history,quiet",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-3$0f75fcc616d0b0109a27e6656f5431343c5d3609e610d2f2400760b7797aa1ac",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 4,
+    "username": "demo_user_4",
+    "display_name": "演示用户4",
+    "interests": "culture,art,museum",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-4$5be3d1abc23eb24d7adca7935bb615ecbdcaa8954bdfb52e9ffb5cd2a5ddf587",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 5,
+    "username": "demo_user_5",
+    "display_name": "演示用户5",
+    "interests": "museum,history,photography",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-5$c464c70aa3b52e3be7344488b5ec6c42bb56c2462430c9530716906c04548854",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 6,
+    "username": "demo_user_6",
+    "display_name": "演示用户6",
+    "interests": "campus,architecture,coffee",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-6$35212c1d46a427a694796911027547793eda7ec9334b67fd75eb69aefeaec373",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 7,
+    "username": "demo_user_7",
+    "display_name": "演示用户7",
+    "interests": "park,walking,food",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-7$a4e84d02a254615fb4877476a13076dadcab573dbd6aa4c5836bf08d88e32d37",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 8,
+    "username": "demo_user_8",
+    "display_name": "演示用户8",
+    "interests": "garden,history,quiet",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-8$2d4da49cf4b4efe584841377c6822737361f0708d49b8f9cd0cf56f0a68cdf02",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 9,
+    "username": "demo_user_9",
+    "display_name": "演示用户9",
+    "interests": "culture,art,museum",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-9$896f0801ccaeedf43a30af9397a568d13ee0c27218890f63d2002783e9a56f18",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 10,
+    "username": "demo_user_10",
+    "display_name": "演示用户10",
+    "interests": "museum,history,photography",
+    "created_at": "2026-04-18T10:00:00",
+    "last_login_at": "2026-04-18T10:00:00",
+    "password_hash": "demo-salt-10$8bf091ee87801daf268fb97b45390b3a96c59be8949620a8f27157ea492a3117",
+    "favorite_destination_ids": [],
+    "favorite_route_snapshots": []
+  },
+  {
+    "id": 11,
+    "username": "test_e7657b77",
+    "display_name": "测试用户",
+    "created_at": "2026-04-18T17:08:35",
+    "last_login_at": "2026-04-18T17:08:35",
+    "password_hash": "7335aff8b73c6854$15baf915ed67389cb63d165a5ef6a6bc35e1d48a4c875a21f791048f0b61e76d",
+    "favorite_destination_ids": [
+      "featured-5"
+    ],
+    "favorite_route_snapshots": [
+      {
+        "scene_name": "BUPT_Main_Campus",
+        "strategy": "distance",
+        "transport_mode": "walk",
+        "path_codes": [
+          "BUPT_GATE",
+          "BUPT_LIB"
+        ],
+        "path_names": [
+          "南门",
+          "图书馆"
+        ],
+        "total_distance_m": 100.0,
+        "estimated_minutes": 2.1,
+        "explanation": "测试路线",
+        "saved_at": "2026-04-18T17:08:35"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "username": "test_42936194",
+    "display_name": "测试用户",
+    "created_at": "2026-04-18T17:13:46",
+    "last_login_at": "2026-04-18T17:13:46",
+    "password_hash": "dec775df6dc4f64a$c60598a354b5184ca79e0337fbd4ac92522ca26c5d687c605f12281fef7a0693",
+    "favorite_destination_ids": [
+      "featured-5"
+    ],
+    "favorite_route_snapshots": [
+      {
+        "scene_name": "BUPT_Main_Campus",
+        "strategy": "distance",
+        "transport_mode": "walk",
+        "path_codes": [
+          "BUPT_GATE",
+          "BUPT_LIB"
+        ],
+        "path_names": [
+          "南门",
+          "图书馆"
+        ],
+        "total_distance_m": 100.0,
+        "estimated_minutes": 2.1,
+        "explanation": "测试路线",
+        "saved_at": "2026-04-18T17:13:46"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "username": "admin",
+    "display_name": "admin",
+    "created_at": "2026-04-18T17:37:57",
+    "last_login_at": "2026-04-18T17:37:57",
+    "password_hash": "bae8d664138ea4c7$b56f528539afcb3ebaeba7805d38b793ca96630c2aa75c676230005a4e5e5449",
+    "favorite_destination_ids": [
+      "osm-node-3884441391"
+    ],
+    "favorite_route_snapshots": []
+  }
+]

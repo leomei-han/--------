@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "故宫博物院游记1",
+    "destination_name": "故宫博物院",
+    "content": "这次我去了北京的故宫博物院。我更关注建筑和城市漫步感，这条路线的视野和动线都很顺。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 158,
+    "rating": 4.2,
+    "media_urls": [
+      "/media/destinations/destination-01.svg"
+    ],
+    "author_id": 2,
+    "author_name": "演示用户2",
+    "created_at": "2026-04-18T11:00:00"
+  },
+  {
+    "id": 2,
+    "title": "颐和园游记2",
+    "destination_name": "颐和园",
+    "content": "这次我去了北京的颐和园。这次把景点、商圈和餐厅串起来走，几乎没有浪费路程。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 196,
+    "rating": 4.3,
+    "media_urls": [
+      "/media/destinations/destination-02.svg"
+    ],
+    "author_id": 3,
+    "author_name": "演示用户3",
+    "created_at": "2026-04-18T12:00:00"
+  },
+  {
+    "id": 3,
+    "title": "三里屯游记3",
+    "destination_name": "三里屯",
+    "content": "这次我去了北京的三里屯。最喜欢的是路线回看和周边设施提醒，适合第一次来这座城市的人照着走。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 234,
+    "rating": 4.4,
+    "media_urls": [
+      "/media/destinations/destination-03.svg"
+    ],
+    "author_id": 4,
+    "author_name": "演示用户4",
+    "created_at": "2026-04-18T13:00:00"
+  },
+  {
+    "id": 4,
+    "title": "清华大学游记4",
+    "destination_name": "清华大学",
+    "content": "这次我去了北京的清华大学。上午先走经典路线，下午转进更适合拍照和休息的区域，整体节奏很舒服。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 272,
+    "rating": 4.5,
+    "media_urls": [
+      "/media/destinations/destination-04.svg"
+    ],
+    "author_id": 5,
+    "author_name": "演示用户5",
+    "created_at": "2026-04-18T14:00:00"
+  },
+  {
+    "id": 5,
+    "title": "外滩游记5",
+    "destination_name": "外滩",
+    "content": "这次我去了上海的外滩。我更关注建筑和城市漫步感，这条路线的视野和动线都很顺。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 310,
+    "rating": 4.6,
+    "media_urls": [
+      "/media/destinations/destination-05.svg"
+    ],
+    "author_id": 6,
+    "author_name": "演示用户6",
+    "created_at": "2026-04-18T15:00:00"
+  },
+  {
+    "id": 6,
+    "title": "豫园游记6",
+    "destination_name": "豫园",
+    "content": "这次我去了上海的豫园。这次把景点、商圈和餐厅串起来走，几乎没有浪费路程。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 348,
+    "rating": 4.1,
+    "media_urls": [
+      "/media/destinations/destination-06.svg"
+    ],
+    "author_id": 7,
+    "author_name": "演示用户7",
+    "created_at": "2026-04-18T16:00:00"
+  },
+  {
+    "id": 7,
+    "title": "南京路步行街游记7",
+    "destination_name": "南京路步行街",
+    "content": "这次我去了上海的南京路步行街。最喜欢的是路线回看和周边设施提醒，适合第一次来这座城市的人照着走。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 386,
+    "rating": 4.2,
+    "media_urls": [
+      "/media/destinations/destination-07.svg"
+    ],
+    "author_id": 8,
+    "author_name": "演示用户8",
+    "created_at": "2026-04-18T17:00:00"
+  },
+  {
+    "id": 8,
+    "title": "上海交通大学(徐汇校区)游记8",
+    "destination_name": "上海交通大学(徐汇校区)",
+    "content": "这次我去了上海的上海交通大学(徐汇校区)。上午先走经典路线，下午转进更适合拍照和休息的区域，整体节奏很舒服。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 424,
+    "rating": 4.3,
+    "media_urls": [
+      "/media/destinations/destination-08.svg"
+    ],
+    "author_id": 9,
+    "author_name": "演示用户9",
+    "created_at": "2026-04-18T18:00:00"
+  },
+  {
+    "id": 9,
+    "title": "广州塔游记9",
+    "destination_name": "广州塔",
+    "content": "这次我去了广州的广州塔。我更关注建筑和城市漫步感，这条路线的视野和动线都很顺。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 462,
+    "rating": 4.4,
+    "media_urls": [
+      "/media/destinations/destination-09.svg"
+    ],
+    "author_id": 10,
+    "author_name": "演示用户10",
+    "created_at": "2026-04-18T19:00:00"
+  },
+  {
+    "id": 10,
+    "title": "陈家祠游记10",
+    "destination_name": "陈家祠",
+    "content": "这次我去了广州的陈家祠。这次把景点、商圈和餐厅串起来走，几乎没有浪费路程。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 500,
+    "rating": 4.5,
+    "media_urls": [
+      "/media/destinations/destination-10.svg"
+    ],
+    "author_id": 1,
+    "author_name": "演示用户1",
+    "created_at": "2026-04-18T10:00:00"
+  },
+  {
+    "id": 11,
+    "title": "天环广场游记11",
+    "destination_name": "天环广场",
+    "content": "这次我去了广州的天环广场。最喜欢的是路线回看和周边设施提醒，适合第一次来这座城市的人照着走。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 538,
+    "rating": 4.6,
+    "media_urls": [
+      "/media/destinations/destination-11.svg"
+    ],
+    "author_id": 2,
+    "author_name": "演示用户2",
+    "created_at": "2026-04-18T11:00:00"
+  },
+  {
+    "id": 12,
+    "title": "中山大学(南校园)游记12",
+    "destination_name": "中山大学(南校园)",
+    "content": "这次我去了广州的中山大学(南校园)。上午先走经典路线，下午转进更适合拍照和休息的区域，整体节奏很舒服。 如果时间有限，我会建议把附近餐厅和下一个打卡点一起规划。",
+    "views": 576,
+    "rating": 4.1,
+    "media_urls": [
+      "/media/destinations/destination-12.svg"
+    ],
+    "author_id": 3,
+    "author_name": "演示用户3",
+    "created_at": "2026-04-18T12:00:00"
+  },
+  {
+    "id": 13,
+    "title": "测试发布日记",
+    "destination_name": "故宫博物院",
+    "content": "这是一篇用于接口测试的新日记。",
+    "views": 0,
+    "rating": 4.5,
+    "media_urls": [
+      "/media/destinations/destination-01.svg"
+    ],
+    "author_id": 1,
+    "author_name": "演示用户1",
+    "created_at": "2026-04-18T17:08:35"
+  },
+  {
+    "id": 14,
+    "title": "测试发布日记",
+    "destination_name": "故宫博物院",
+    "content": "这是一篇用于接口测试的新日记。",
+    "views": 0,
+    "rating": 4.5,
+    "media_urls": [
+      "/media/destinations/destination-01.svg"
+    ],
+    "author_id": 1,
+    "author_name": "演示用户1",
+    "created_at": "2026-04-18T17:13:46"
+  },
+  {
+    "id": 15,
+    "title": "家人们避雷",
+    "destination_name": "颐和园",
+    "content": "垃圾景点,以后再也不来了",
+    "views": 0,
+    "rating": 4.5,
+    "media_urls": [
+      "/media/destinations/destination-02.svg"
+    ],
+    "author_id": 13,
+    "author_name": "admin",
+    "created_at": "2026-04-18T17:40:40"
+  }
+]

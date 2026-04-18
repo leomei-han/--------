@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#164734"/>
+      <stop offset="100%" stop-color="#e5a54a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#fbf4de" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#fbf4de" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <circle cx="920" cy="140" r="260" fill="url(#glow)"/>
+  <rect x="70" y="72" width="190" height="42" rx="21" fill="rgba(255,255,255,0.16)"/>
+  <text x="106" y="100" fill="#fbf4de" font-family="'Noto Serif SC','Microsoft YaHei',serif" font-size="22" font-weight="700">广州 PICK</text>
+  <text x="70" y="220" fill="#ffffff" font-family="'Noto Serif SC','Microsoft YaHei',serif" font-size="72" font-weight="700">中山大学(南校园)</text>
+  <text x="72" y="302" fill="#fbf4de" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="34">广州 · 海珠区</text>
+  <text x="72" y="360" fill="#fbf4de" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="26">绿荫浓密、建筑老派，是广州最适合散步的高校校园之一。</text>
+  <rect x="72" y="430" width="224" height="58" rx="29" fill="rgba(255,255,255,0.14)" stroke="rgba(255,255,255,0.25)"/>
+  <text x="112" y="468" fill="#ffffff" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="28" font-weight="700">DESTINATION</text>
+  <path d="M754 560C832 490 926 452 1036 446" fill="none" stroke="rgba(255,255,255,0.26)" stroke-width="3"/>
+  <path d="M718 612C826 544 952 512 1096 516" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="2"/>
+  <rect x="770" y="446" width="340" height="170" rx="28" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <circle cx="844" cy="522" r="42" fill="rgba(255,255,255,0.16)"/>
+  <circle cx="922" cy="522" r="42" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="1000" cy="522" r="42" fill="rgba(255,255,255,0.1)"/>
+  <text x="816" y="590" fill="#fbf4de" font-family="'Noto Sans SC','Microsoft YaHei',sans-serif" font-size="20">LOCAL MEDIA</text>
+</svg>
