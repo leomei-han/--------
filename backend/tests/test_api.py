@@ -58,7 +58,30 @@ def test_single_route_endpoint_returns_path():
     assert payload["path_codes"]
     assert payload["path_names"]
     assert payload["estimated_minutes"] >= 0
+    assert payload["segments"]
+    assert payload["navigation_summary"]
+    assert payload["resolved_start_code"] == "BUPT_GATE"
     assert "alternatives" in payload
+
+
+def test_single_route_can_resolve_start_from_current_location():
+    response = client.post(
+        "/api/routes/single",
+        json={
+            "scene_name": "BUPT_Main_Campus",
+            "start_code": "BUPT_LIB",
+            "end_code": "BUPT_05",
+            "strategy": "distance",
+            "transport_mode": "walk",
+            "prefer_nearest_start": True,
+            "start_latitude": 39.96007,
+            "start_longitude": 116.36408,
+        },
+    )
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["resolved_start_code"] == "BUPT_GATE"
+    assert payload["path_codes"][0] == "BUPT_GATE"
 
 
 def test_nearby_facilities_endpoint_returns_graph_distance():

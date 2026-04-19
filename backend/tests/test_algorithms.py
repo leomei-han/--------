@@ -89,6 +89,16 @@ def test_graph_shortest_distances_matches_path_cost():
     assert dist["C"] == cost == 11
 
 
+def test_graph_nearest_node_returns_closest_candidate():
+    graph = Graph()
+    graph.add_node("A", 39.0, 116.0)
+    graph.add_node("B", 39.5, 116.5)
+    graph.add_node("C", 40.0, 117.0)
+
+    assert graph.nearest_node(39.48, 116.48) == "B"
+    assert graph.nearest_node(39.48, 116.48, {"A", "C"}) == "A"
+
+
 def test_tsp_algorithms_handle_empty_targets():
     graph = Graph()
     graph.add_node("A", 0.0, 0.0)

@@ -104,6 +104,23 @@ class Graph:
         dist, _ = self._dijkstra(start, strategy=strategy, transport_mode=transport_mode)
         return dist
 
+    def edge_between(self, source: str, target: str) -> Edge | None:
+        return next((item for item in self.adj.get(source, []) if item.target == target), None)
+
+    def nearest_node(self, latitude: float, longitude: float, candidates: set[str] | None = None) -> str | None:
+        best_code: str | None = None
+        best_distance = float("inf")
+        candidate_codes = candidates if candidates is not None else set(self.coords.keys())
+        for code in candidate_codes:
+            if code not in self.coords:
+                continue
+            node_latitude, node_longitude = self.coords[code]
+            distance = math.dist((latitude, longitude), (node_latitude, node_longitude))
+            if distance < best_distance:
+                best_distance = distance
+                best_code = code
+        return best_code
+
     def a_star(self, start: str, end: str, transport_mode: str = "walk") -> tuple[list[str], float]:
         def heuristic(node: str) -> float:
             lat1, lon1 = self.coords.get(node, (0.0, 0.0))
@@ -144,7 +161,7 @@ class Graph:
         scenic_score = 0.0
         steps = 0
         for source, target in zip(path, path[1:]):
-            edge = next((item for item in self.adj.get(source, []) if item.target == target), None)
+            edge = self.edge_between(source, target)
             if edge is None:
                 continue
             total_distance += edge.distance

@@ -11,6 +11,9 @@ class SingleRouteRequest(BaseModel):
     end_code: str
     strategy: str = "distance"
     transport_mode: str = "walk"
+    prefer_nearest_start: bool = False
+    start_latitude: float | None = None
+    start_longitude: float | None = None
 
 
 class MultiRouteRequest(BaseModel):
@@ -19,6 +22,9 @@ class MultiRouteRequest(BaseModel):
     target_codes: list[str] = Field(default_factory=list)
     strategy: str = "distance"
     transport_mode: str = "walk"
+    prefer_nearest_start: bool = False
+    start_latitude: float | None = None
+    start_longitude: float | None = None
 
 
 class RouteResponse(BaseModel):
