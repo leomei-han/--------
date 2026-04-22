@@ -2,8 +2,8 @@
 
 ## 1. 测试范围
 
-- 算法层：Top-K、Quickselect、Hash/Trie/倒排索引、Dijkstra、Held-Karp、2-opt、Huffman
-- 服务与接口层：推荐、搜索、路线、设施、美食、日记发布/检索/详情/浏览/评分/压缩/解压
+- 算法层：Top-K、Quickselect、Hash/Trie/倒排索引、Dijkstra、Held-Karp、2-opt、Huffman、室内导航最短路、AIGC 分镜生成
+- 服务与接口层：推荐、搜索、路线、室内导航、设施、美食、日记发布/检索/详情/浏览/评分/压缩/解压/AIGC 动画
 - 前端构建层：Vue + TypeScript 编译与 Vite 打包
 
 ## 2. 执行命令与结果
@@ -19,7 +19,7 @@ cd backend
 
 结果：
 
-- `24 passed in 0.58s`
+- `32 passed in 0.53s`
 
 ### 2.2 前端构建
 
@@ -41,6 +41,9 @@ npm run build
 - `test_diary_compress_and_decompress_roundtrip`
 - `test_compression_service_returns_ratio_metrics`
 - `test_search_service_fuzzy_results_are_ranked_by_heat_and_rating`
+- `test_indoor_route_cross_floor_contains_elevator_instruction`
+- `test_indoor_route_wheelchair_mode_avoids_stairs`
+- `test_diary_aigc_animation_endpoint_returns_storyboard`
 
 ## 4. 数据隔离说明
 

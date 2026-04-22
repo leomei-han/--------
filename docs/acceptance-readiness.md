@@ -3,7 +3,7 @@
 ## 1. 总体结论
 
 - 当前版本已具备课堂验收主流程所需的核心功能与算法证据，整体状态为 **可验收（Ready with minor risks）**。
-- 推荐、搜索、路线规划、设施查询、美食推荐、日记互动（浏览/评分）、压缩与解压回环均可通过 API 或前端演示路径触达。
+- 推荐、搜索、路线规划（室外+室内）、设施查询、美食推荐、日记互动（浏览/评分）、压缩回环与 AIGC 动画均可通过 API 或前端演示路径触达。
 
 ## 2. 要求覆盖矩阵
 
@@ -18,10 +18,13 @@
 | 日记全文检索 | PASS | backend/app/services/diary_service.py | backend/tests/test_algorithms.py, backend/tests/test_api.py | /api/diaries/search |
 | 日记互动（浏览+评分） | PASS | backend/app/api/routes/diaries.py, frontend/src/pages/DiaryPage.vue | backend/tests/test_api.py | /api/diaries/{id}/view, /api/diaries/{id}/rate |
 | Huffman 压缩与解压回环 | PASS | backend/app/services/diary_service.py, backend/app/api/routes/diaries.py | backend/tests/test_api.py | /api/diaries/compress, /api/diaries/decompress |
+| 室内导航（大门-电梯-楼层-房间） | PASS | backend/app/services/indoor_service.py, frontend/src/pages/RoutePage.vue | backend/tests/test_algorithms.py, backend/tests/test_api.py | /api/indoor/buildings, /api/indoor/route |
+| 日记 AIGC 动画生成 | PASS | backend/app/services/diary_service.py, frontend/src/pages/DiaryPage.vue | backend/tests/test_algorithms.py, backend/tests/test_api.py | /api/diaries/{id}/aigc-animation |
+| 数据规模阈值（200+目的地/200+边/10+用户等） | PASS | datasets/prod/*.json | backend/tests/test_api.py | /api/destinations, /api/map/scenes |
 
 ## 3. 验证结果快照
 
-- 后端测试：`24 passed`（命令：`pytest tests/test_algorithms.py tests/test_api.py -q`）
+- 后端测试：`32 passed`（命令：`pytest tests/test_algorithms.py tests/test_api.py -q`）
 - 前端构建：通过（命令：`npm run build`）
 
 ## 4. 已知风险与待办

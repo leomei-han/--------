@@ -60,3 +60,19 @@
 	- 目标：对日记内容进行可逆压缩展示
 	- 复杂度：构树与编码表构建近似 $O(n\log \sigma)$，解码 $O(n)$
 	- 其中 $\sigma$ 是字符种类数
+
+## 室内导航
+
+- IndoorNavigationService（楼宇内最短路）
+	- 目标：支持大门到电梯、楼层切换、楼层内房间导航
+	- 实现：楼宇节点图 + Dijkstra，支持 `distance/time/accessible` 三种策略
+	- 复杂度：$O(E\log V)$
+	- 说明：轮椅模式下禁用楼梯边，确保无障碍路径可达
+
+## AIGC 动画生成
+
+- DiaryAIGCService（图文分镜脚本生成）
+	- 目标：根据日记文字和图片生成可播放的旅游动画分镜脚本
+	- 实现：句子切分 + 关键词提取 + 转场模板编排 + 时长估算
+	- 复杂度：文本处理近似 $O(n)$，其中 $n$ 为文本长度
+	- 输出：镜头序列（caption/transition/duration/visual prompt/narration）与旁白串联稿

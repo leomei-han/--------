@@ -23,6 +23,11 @@
 - `POST /api/routes/single`
 - `POST /api/routes/multi`
 
+## 室内导航
+
+- `GET /api/indoor/buildings`
+- `POST /api/indoor/route`
+
 ## 地图场景
 
 - `GET /api/map/scenes`
@@ -39,6 +44,7 @@
 - `POST /api/diaries/{diary_id}/rate`
 - `POST /api/diaries/compress`
 - `POST /api/diaries/decompress`
+- `POST /api/diaries/{diary_id}/aigc-animation`
 
 ## 辅助与管理
 
