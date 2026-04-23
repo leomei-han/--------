@@ -20,8 +20,8 @@ This file provides guidance to agents when working with code in this repository.
 - Auth uses SHA-256 with salt stored in JSON, demo accounts fallback to password `demo123`.
 - Tests use `tmp_path` fixture + `dependency_overrides` for dataset isolation — do NOT modify `datasets/prod/` in tests.
 - API prefix is `/api` (configured in `config.py`), CORS origins default to `localhost:5173` and `127.0.0.1:5173`.
-- Error handling: custom `AppError` hierarchy in `core/exceptions.py`, registered via `core/error_handlers.py`.
-- Logging: structured JSON via `core/logging.py`, auto-configured at app startup.
+- Error handling: custom exception hierarchy (`BusinessError`, `NotFoundError`, `AuthenticationError`, `ConflictError`) in `core/exceptions.py`, registered via `core/error_handlers.py`. Services raise these directly; route layer does NOT catch/re-wrap.
+- Logging: plain-text format (`asctime | level | name | message`) via `core/logging.py`, auto-configured at app startup.
 - CI: GitHub Actions workflow at `.github/workflows/ci.yml` runs lint + format check + typecheck + build (frontend) and ruff + pytest (backend).
 
 ## Code Style
