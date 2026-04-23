@@ -1,28 +1,7 @@
-import shutil
-from pathlib import Path
 from uuid import uuid4
 
-import pytest
-from fastapi.testclient import TestClient
 
-from app.main import app
-from app.repositories.data_loader import DatasetRepository, get_repository
-
-client = TestClient(app)
-
-
-@pytest.fixture(autouse=True)
-def isolate_api_dataset(tmp_path):
-    source_dir = Path(__file__).resolve().parents[2] / "datasets" / "prod"
-    target_dir = tmp_path / "prod"
-    shutil.copytree(source_dir, target_dir)
-    repository = DatasetRepository(target_dir)
-    app.dependency_overrides[get_repository] = lambda: repository
-    yield
-    app.dependency_overrides.pop(get_repository, None)
-
-
-def test_destinations_endpoint_returns_real_dataset():
+def test_destinations_endpoint_returns_real_dataset(client):
     response = client.get("/api/destinations")
     assert response.status_code == 200
     data = response.json()
@@ -30,7 +9,7 @@ def test_destinations_endpoint_returns_real_dataset():
     assert any(item["name"] == "北京邮电大学" for item in data)
 
 
-def test_featured_destinations_include_scenic_and_shopping():
+def test_featured_destinations_include_scenic_and_shopping(client):
     response = client.get("/api/destinations/featured")
     assert response.status_code == 200
     data = response.json()
@@ -42,7 +21,7 @@ def test_featured_destinations_include_scenic_and_shopping():
     assert all(item["source_url"] for item in data)
 
 
-def test_single_route_endpoint_returns_path():
+def test_single_route_endpoint_returns_path(client):
     response = client.post(
         "/api/routes/single",
         json={
@@ -64,7 +43,7 @@ def test_single_route_endpoint_returns_path():
     assert "alternatives" in payload
 
 
-def test_single_route_can_resolve_start_from_current_location():
+def test_single_route_can_resolve_start_from_current_location(client):
     response = client.post(
         "/api/routes/single",
         json={
@@ -84,7 +63,7 @@ def test_single_route_can_resolve_start_from_current_location():
     assert payload["path_codes"][0] == "BUPT_GATE"
 
 
-def test_indoor_buildings_endpoint_returns_structured_items():
+def test_indoor_buildings_endpoint_returns_structured_items(client):
     response = client.get("/api/indoor/buildings")
     assert response.status_code == 200
     payload = response.json()["items"]
@@ -92,7 +71,7 @@ def test_indoor_buildings_endpoint_returns_structured_items():
     assert any(item["building_code"] == "BUPT_LIB" for item in payload)
 
 
-def test_indoor_route_cross_floor_contains_elevator_instruction():
+def test_indoor_route_cross_floor_contains_elevator_instruction(client):
     response = client.post(
         "/api/indoor/route",
         json={
@@ -110,7 +89,7 @@ def test_indoor_route_cross_floor_contains_elevator_instruction():
     assert any("电梯" in step["instruction"] for step in payload["steps"])
 
 
-def test_indoor_route_wheelchair_mode_avoids_stairs():
+def test_indoor_route_wheelchair_mode_avoids_stairs(client):
     response = client.post(
         "/api/indoor/route",
         json={
@@ -127,7 +106,7 @@ def test_indoor_route_wheelchair_mode_avoids_stairs():
     assert all(step["connector"] != "stairs" for step in payload["steps"])
 
 
-def test_nearby_facilities_endpoint_returns_graph_distance():
+def test_nearby_facilities_endpoint_returns_graph_distance(client):
     response = client.get(
         "/api/facilities/nearby",
         params={"scene_name": "BUPT_Main_Campus", "origin_code": "BUPT_GATE"},
@@ -138,7 +117,7 @@ def test_nearby_facilities_endpoint_returns_graph_distance():
     assert "graph_distance" in data[0]
 
 
-def test_foods_endpoint_returns_structured_items():
+def test_foods_endpoint_returns_structured_items(client):
     response = client.get("/api/foods")
     assert response.status_code == 200
     payload = response.json()
@@ -146,7 +125,7 @@ def test_foods_endpoint_returns_structured_items():
     assert payload["items"][0]["rating"] is not None
 
 
-def test_diary_search_and_detail_return_structured_payload():
+def test_diary_search_and_detail_return_structured_payload(client):
     search_response = client.post("/api/diaries/search", json={"query": "故宫"})
     assert search_response.status_code == 200
     payload = search_response.json()
@@ -157,7 +136,7 @@ def test_diary_search_and_detail_return_structured_payload():
     assert detail_response.json()["content"]
 
 
-def test_auth_register_me_favorite_and_logout_flow():
+def test_auth_register_me_favorite_and_logout_flow(client):
     username = f"test_{uuid4().hex[:8]}"
     register_response = client.post(
         "/api/auth/register",
@@ -201,7 +180,7 @@ def test_auth_register_me_favorite_and_logout_flow():
     assert logout_response.status_code == 200
 
 
-def test_create_diary_requires_auth_and_persists():
+def test_create_diary_requires_auth_and_persists(client):
     login_response = client.post("/api/auth/login", json={"username": "demo_user_1", "password": "demo123"})
     assert login_response.status_code == 200
     token = login_response.json()["token"]
@@ -222,7 +201,7 @@ def test_create_diary_requires_auth_and_persists():
     assert create_response.json()["author_name"]
 
 
-def test_diary_view_and_rate_interaction_flow():
+def test_diary_view_and_rate_interaction_flow(client):
     search_response = client.post("/api/diaries/search", json={"query": "故宫"})
     assert search_response.status_code == 200
     diary_id = search_response.json()["items"][0]["id"]
@@ -248,7 +227,7 @@ def test_diary_view_and_rate_interaction_flow():
     assert 1.0 <= payload["diary"]["rating"] <= 5.0
 
 
-def test_diary_compress_and_decompress_roundtrip():
+def test_diary_compress_and_decompress_roundtrip(client):
     content = "路线体验很好，故宫红墙很适合拍照。"
     compress_response = client.post("/api/diaries/compress", json={"content": content})
     assert compress_response.status_code == 200
@@ -264,7 +243,7 @@ def test_diary_compress_and_decompress_roundtrip():
     assert decompress_response.json()["content"] == content
 
 
-def test_diary_aigc_animation_endpoint_returns_storyboard():
+def test_diary_aigc_animation_endpoint_returns_storyboard(client):
     search_response = client.post("/api/diaries/search", json={"query": "故宫"})
     assert search_response.status_code == 200
     diary_id = search_response.json()["items"][0]["id"]
