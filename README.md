@@ -42,6 +42,35 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
+### PostgreSQL 初始化（首次）
+
+项目现在默认使用 PostgreSQL 存储。首次在本机（apt 安装 PostgreSQL）可按以下流程初始化：
+
+```bash
+cd backend
+cp .env.example .env
+
+# 创建 travel_app / travel_system（会要求输入 sudo 密码）
+./scripts/setup_local_postgres.sh
+
+# 建表并导入 datasets/prod/*.json 到数据库
+./scripts/bootstrap_postgres.sh
+```
+
+如果你使用 Docker，也可以在 `infra/postgres` 下启动数据库：
+
+```bash
+cd infra/postgres
+docker compose up -d
+```
+
+然后回到 `backend` 执行：
+
+```bash
+alembic upgrade head
+python scripts/seed_db.py --skip-create-tables
+```
+
 ### 2. 前端
 
 ```powershell
@@ -87,7 +116,7 @@ cd data_pipeline
 
 后续可以继续补齐：
 
-- PostGIS 实库接入与 Alembic 迁移
+- PostGIS 深度空间查询与索引优化
 - 更大规模真实数据清洗
 - 地图精细化导航与验收演示素材
 
