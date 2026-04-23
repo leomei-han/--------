@@ -7,6 +7,8 @@ from pathlib import Path
 from typing import Any
 
 from app.core.config import get_settings
+from app.db.session import SessionLocal
+from app.repositories.postgres_repository import PostgresRepository
 
 logger = logging.getLogger(__name__)
 
@@ -87,5 +89,18 @@ class DatasetRepository:
 
 
 @lru_cache
-def get_repository() -> DatasetRepository:
+def get_json_repository() -> DatasetRepository:
     return DatasetRepository(get_settings().dataset_dir)
+
+
+@lru_cache
+def get_postgres_repository() -> PostgresRepository:
+    return PostgresRepository(SessionLocal)
+
+
+@lru_cache
+def get_repository() -> DatasetRepository | PostgresRepository:
+    settings = get_settings()
+    if settings.storage_backend == "postgres":
+        return get_postgres_repository()
+    return get_json_repository()

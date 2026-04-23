@@ -3,7 +3,7 @@ from app.algorithms.graph import Graph
 from app.algorithms.search import HashIndex, InvertedIndex, TrieIndex
 from app.algorithms.tsp import held_karp, nearest_neighbor_two_opt
 from app.algorithms.topk import TopKSelector, quickselect_top_k
-from app.repositories.data_loader import get_repository
+from app.repositories.data_loader import get_json_repository
 from app.services.diary_service import CompressionService, DiaryAIGCService
 from app.services.facility_service import NearbyFacilityService
 from app.services.indoor_service import IndoorNavigationService
@@ -146,7 +146,7 @@ def test_held_karp_uses_single_source_distance_tables(monkeypatch):
 
 
 def test_nearby_facility_uses_graph_distances_instead_of_single_route_calls():
-    repository = get_repository()
+    repository = get_json_repository()
     service = NearbyFacilityService(repository)
 
     # 重构后 NearbyFacilityService 直接使用 GraphBuilder 而非 RoutePlanningService，
@@ -159,7 +159,7 @@ def test_nearby_facility_uses_graph_distances_instead_of_single_route_calls():
 
 
 def test_plan_multi_empty_targets_returns_origin_only():
-    service = RoutePlanningService(get_repository())
+    service = RoutePlanningService(get_json_repository())
     result = service.plan_multi("BUPT_Main_Campus", "BUPT_GATE", [], "distance", "walk")
 
     assert result["path_codes"] == ["BUPT_GATE"]
@@ -168,7 +168,7 @@ def test_plan_multi_empty_targets_returns_origin_only():
 
 
 def test_indoor_service_wheelchair_route_avoids_stairs_edges():
-    service = IndoorNavigationService(get_repository())
+    service = IndoorNavigationService(get_json_repository())
     result = service.plan_route(
         building_code="BUPT_LIB",
         start_node_code="BUPT_LIB_GATE_L1",
