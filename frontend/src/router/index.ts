@@ -38,6 +38,16 @@ const router = createRouter({
       name: "diaries",
       component: () => import("../pages/DiaryPage.vue"),
     },
+    {
+      path: "/agents",
+      name: "agents",
+      component: () => import("../pages/AgentPage.vue"),
+    },
+    {
+      path: "/admin",
+      name: "admin",
+      component: () => import("../pages/AdminPage.vue"),
+    },
   ],
 });
 
