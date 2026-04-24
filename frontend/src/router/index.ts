@@ -17,8 +17,8 @@ const router = createRouter({
     { path: "/routes", component: RoutePage },
     { path: "/facilities", component: FacilityPage },
     { path: "/foods", component: FoodPage },
-    { path: "/diaries", component: DiaryPage }
-  ]
+    { path: "/diaries", component: DiaryPage },
+  ],
 });
 
 export default router;

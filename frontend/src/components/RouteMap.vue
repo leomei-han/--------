@@ -4,19 +4,21 @@
     <div ref="mapEl" class="route-map"></div>
   </div>
 </template>
-
 <script setup lang="ts">
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { onBeforeUnmount, onMounted, ref, watch } from "vue";
-
 const props = defineProps<{
-  nodes: Array<{ code: string; name: string; latitude: number; longitude: number }>;
+  nodes: Array<{
+    code: string;
+    name: string;
+    latitude: number;
+    longitude: number;
+  }>;
   path: string[];
   pathColor?: string;
   currentLocation?: { latitude: number; longitude: number } | null;
 }>();
-
 const mapEl = ref<HTMLDivElement | null>(null);
 const mapError = ref(false);
 let map: L.Map | null = null;
@@ -25,50 +27,59 @@ let pathLayer: L.Polyline | null = null;
 let currentLocationLayer: L.LayerGroup | null = null;
 let dashTimer: number | null = null;
 let dashOffset = 0;
-
 const renderMap = () => {
   if (!map) return;
   const nodeMap = new Map(props.nodes.map((item) => [item.code, item]));
   const pathIndex = new Map(props.path.map((code, index) => [code, index]));
   markersLayer?.clearLayers();
   currentLocationLayer?.clearLayers();
-
   props.nodes.forEach((node) => {
     const index = pathIndex.get(node.code);
     const isStart = index === 0;
     const isEnd = index === props.path.length - 1 && props.path.length > 1;
     const isOnPath = index !== undefined;
-    const markerColor = isStart ? "#1475c4" : isEnd ? "#d44f2a" : isOnPath ? "#b7672a" : "#8d9fb0";
-    const fillColor = isStart ? "#55aaf1" : isEnd ? "#f4895f" : isOnPath ? "#f0a25d" : "#c8d2dc";
+    const markerColor = isStart
+      ? "#1475c4"
+      : isEnd
+        ? "#d44f2a"
+        : isOnPath
+          ? "#b7672a"
+          : "#8d9fb0";
+    const fillColor = isStart
+      ? "#55aaf1"
+      : isEnd
+        ? "#f4895f"
+        : isOnPath
+          ? "#f0a25d"
+          : "#c8d2dc";
     const marker = L.circleMarker([node.latitude, node.longitude], {
       radius: isStart || isEnd ? 9 : isOnPath ? 7 : 6,
       color: markerColor,
       weight: 2,
       fillColor,
-      fillOpacity: 0.96
+      fillOpacity: 0.96,
     }).bindPopup(`${node.name}`);
-
     if (isOnPath) {
       marker.bindTooltip(`#${index + 1} ${node.name}`, {
         permanent: false,
         direction: "top",
       });
     }
-
     markersLayer?.addLayer(marker);
   });
-
   if (props.currentLocation) {
-    const marker = L.circleMarker([props.currentLocation.latitude, props.currentLocation.longitude], {
-      radius: 8,
-      color: "#1e90ff",
-      weight: 2,
-      fillColor: "#7bc4ff",
-      fillOpacity: 0.98,
-    }).bindTooltip("当前位置", { direction: "top" });
+    const marker = L.circleMarker(
+      [props.currentLocation.latitude, props.currentLocation.longitude],
+      {
+        radius: 8,
+        color: "#1e90ff",
+        weight: 2,
+        fillColor: "#7bc4ff",
+        fillOpacity: 0.98,
+      },
+    ).bindTooltip("当前位置", { direction: "top" });
     currentLocationLayer?.addLayer(marker);
   }
-
   if (pathLayer) {
     map.removeLayer(pathLayer);
     pathLayer = null;
@@ -77,12 +88,10 @@ const renderMap = () => {
     window.clearInterval(dashTimer);
     dashTimer = null;
   }
-
   const coordinates = props.path
     .map((code) => nodeMap.get(code))
     .filter(Boolean)
     .map((node) => [node!.latitude, node!.longitude] as [number, number]);
-
   if (coordinates.length > 1) {
     pathLayer = L.polyline(coordinates, {
       color: props.pathColor ?? "#b65a2e",
@@ -91,33 +100,44 @@ const renderMap = () => {
       dashArray: "12 10",
       dashOffset: "0",
     }).addTo(map);
-
     dashOffset = 0;
     dashTimer = window.setInterval(() => {
       if (!pathLayer) return;
       dashOffset -= 1;
       (pathLayer as any).setStyle({ dashOffset: `${dashOffset}` });
     }, 80);
-
     map.fitBounds(pathLayer.getBounds(), { padding: [30, 30] });
   } else if (props.nodes.length > 0) {
-    const bounds = L.latLngBounds(props.nodes.map((node) => [node.latitude, node.longitude] as [number, number]));
+    const bounds = L.latLngBounds(
+      props.nodes.map(
+        (node) => [node.latitude, node.longitude] as [number, number],
+      ),
+    );
     if (props.currentLocation) {
-      bounds.extend([props.currentLocation.latitude, props.currentLocation.longitude]);
+      bounds.extend([
+        props.currentLocation.latitude,
+        props.currentLocation.longitude,
+      ]);
     }
     map.fitBounds(bounds, { padding: [30, 30] });
   } else if (props.currentLocation) {
-    map.setView([props.currentLocation.latitude, props.currentLocation.longitude], 15);
+    map.setView(
+      [props.currentLocation.latitude, props.currentLocation.longitude],
+      15,
+    );
   }
 };
-
 onMounted(() => {
   if (!mapEl.value) return;
   map = L.map(mapEl.value, { zoomControl: true });
-  const tileLayer = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-  });
+  const tileLayer = L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    },
+  );
   tileLayer.on("tileerror", () => {
     mapError.value = true;
   });
@@ -126,15 +146,13 @@ onMounted(() => {
   currentLocationLayer = L.layerGroup().addTo(map);
   renderMap();
 });
-
 watch(
   () => [props.nodes, props.path, props.currentLocation],
   () => {
     renderMap();
   },
-  { deep: true }
+  { deep: true },
 );
-
 onBeforeUnmount(() => {
   if (dashTimer) {
     window.clearInterval(dashTimer);
